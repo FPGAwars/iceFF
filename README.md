@@ -11,7 +11,14 @@ Working with Flip-Flops.
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
+## Blocks
+* *FFs*
+  * DFF
 
+## Examples
+* *TESTs*
+  * *DFF*
+    * 01-icerok-delay-measurement
 
 
 ## Authors
