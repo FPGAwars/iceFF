@@ -5,6 +5,8 @@
 
 Working with Flip-Flops.
 
+![](wiki/iceFF-logo.png)
+
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/iceFF/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceFF/archive/master.zip)
