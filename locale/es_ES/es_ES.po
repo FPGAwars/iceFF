@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-09-07 08:27+0200\n"
+"POT-Creation-Date: 2020-09-07 13:03+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -727,6 +727,117 @@ msgid ""
 "Transparent mode...  \n"
 "or not"
 msgstr ""
+
+#: translation.js:143
+msgid "02-icerok-delay-measurement-2"
+msgstr ""
+
+#: translation.js:144
+msgid ""
+"Biestable de datos (Tipo D). Cuando se recibe un tic por load se captura el "
+"dato"
+msgstr ""
+
+#: translation.js:145
+msgid "Circuito combinacional de 4 entradas y 1 salidas"
+msgstr ""
+
+#: translation.js:146
+msgid "4 channel icerok probe adaptor"
+msgstr "adaptador de 4 canales para la sonda icerok"
+
+#: translation.js:147
+msgid "Agregador de 2 buses de 4-bits a bus de 8-bits"
+msgstr ""
+
+#: translation.js:148
+msgid "Agregador de 4 cables en un bus de 4-bits"
+msgstr ""
+
+#: translation.js:149
+msgid ""
+"# D Flip-Flop: Delaying a signal\n"
+"\n"
+"A 1-bit signal is generated from a table and wired to the input of a D flip-"
+"flop  \n"
+"The output of the D flip-flop should be the same signal but delayed one "
+"cycle  \n"
+"It is easy to check that the D flip-flop is working just by having a look to "
+"the  \n"
+"shape of the two signals: input and output. The shapes should be exactly the "
+"same  \n"
+msgstr ""
+"# Biestable D: Retrasando una señal\n"
+"\n"
+"Una señal de 1 bit se genera a partir de una tabla y se introduce por la "
+"entrada del Biestable D   \n"
+"La salida del biestable debe ser la misma que la entrada, pero retrasada un "
+"ciclo  \n"
+"Es fácil comprobar que el biestable funciona simplemente mirando a la forma "
+"de las dos señales:  \n"
+"entrada y salida. Su forma debe ser exactamente igual\n"
+
+#: translation.js:150
+msgid "## Start the capture"
+msgstr "## Comenzar la captura"
+
+#: translation.js:151
+msgid ""
+"4-bits counting  \n"
+"mahcine"
+msgstr ""
+"Máquina de contar\n"
+"de 4 bits"
+
+#: translation.js:152
+msgid ""
+"Increase the count  \n"
+"on every cycle"
+msgstr ""
+"Incrementar la cuenta\n"
+"en cada ciclo"
+
+#: translation.js:153
+msgid ""
+"The bits of the signal  \n"
+"are only valid when the  \n"
+"machine is on"
+msgstr ""
+"Los bits de la señal\n"
+"solo son válidos cuando \n"
+"la máquina está encendida"
+
+#: translation.js:154
+msgid "Trigger condition: Pushbutton"
+msgstr "Condición de disparo: pulsador"
+
+#: translation.js:155
+msgid "4 channel adaptor"
+msgstr "adaptador de 4 canales"
+
+#: translation.js:156
+msgid ""
+"## Logic analyzer\n"
+"\n"
+"Data being measured:  \n"
+"\n"
+"* Channel 3: Busy signal  \n"
+"* Channel 2: Flip-Flop output  \n"
+"* Channel 1: Flip-Flop input  \n"
+"* Channel 0: Trigger signal"
+msgstr ""
+"## Analizador lógico\n"
+"\n"
+"Datos medidos: \n"
+"\n"
+"* Canal 3: Señal Busy\n"
+"* Canal 2: Salida del biestable\n"
+"* Canal 1: Entrada del biestable\n"
+"* Canal 0: Señal de disparo"
+
+#: translation.js:157
+msgid "## Input data generation"
+msgstr "## Generación de los datos de entrada"
 
 #~ msgid "House"
 #~ msgstr "Casaaaaaaa"
