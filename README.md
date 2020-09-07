@@ -21,7 +21,12 @@ Working with Flip-Flops.
 * *TESTs*
   * *DFF*
     * 01-icerok-delay-measurement
+    * 02-icerok-delay-measurement-2
 
+## Languages
+| Language | Translated strings |
+|:--------:|:------------------:|
+| es_ES | ![Progress](http://progressed.io/bar/15) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
