@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-09-07 08:16+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: translation.js\n"
+
+#: translation.js:10
+msgid "FFs"
+msgstr "Biestables"
+
+#: translation.js:11
+msgid "House"
+msgstr "Casaaaaaaa"
+
+#: translation.js:12 translation.js:19 translation.js:22
+msgid "DFF"
+msgstr "Biestable D"
+
+#: translation.js:13
+msgid "D Flip-flop (verilog implementation)"
+msgstr "Biestable D (Implementación en verilog)"
+
+#: translation.js:14
+msgid "Parameter: Initial value"
+msgstr "Parámetro: Valor inicial"
+
+#: translation.js:15
+msgid "System clock"
+msgstr "Reloj del sistema"
+
+#: translation.js:16
+msgid "Input data"
+msgstr "Dato de entrada"
+
+#: translation.js:17
+msgid "Output"
+msgstr "Salida"
+
+#: translation.js:18
+msgid ""
+"# D Flip-Flop  \n"
+"\n"
+"It stores the input data that arrives at cycle n  \n"
+"Its output is shown in the cycle n+1"
+msgstr ""
+"# Biestable D \n"
+"\n"
+"Almacena el dato de la entrada que llega en el ciclo n  \n"
+"Saca su valor en el ciclo n+1"
+
+#: translation.js:20
+msgid "D Flip-flop"
+msgstr "Biestable D"
+
+#: translation.js:21
+msgid "TESTs"
+msgstr "Pruebas"
