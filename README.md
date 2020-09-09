@@ -16,17 +16,21 @@ Working with Flip-Flops.
 ## Blocks
 * *FFs*
   * DFF
+* *Testbenches*
+  * DFF-TB
+  * TB-Display
 
 ## Examples
 * *TESTs*
   * *DFF*
     * 01-icerok-delay-measurement
     * 02-icerok-delay-measurement-2
+    * 03-icerok-and-autocheck
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/15) |
+| es_ES | ![Progress](http://progressed.io/bar/20) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
