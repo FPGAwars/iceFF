@@ -23,14 +23,17 @@ Working with Flip-Flops.
 ## Examples
 * *TESTs*
   * *DFF*
-    * 01-icerok-delay-measurement
     * 02-icerok-delay-measurement-2
     * 03-icerok-and-autocheck
+    * *Alhambra-II*
+      * 01-icerok-delay-measurement
+    * *NandLand-Go-board*
+      * 01-icerok-delay-measurement
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/20) |
+| es_ES | ![Progress](http://progressed.io/bar/31) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
