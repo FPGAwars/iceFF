@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-09-09 09:00+0200\n"
+"POT-Creation-Date: 2020-09-13 18:51+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -966,133 +966,31 @@ msgid "TESTs"
 msgstr "Pruebas"
 
 #: translation.js:179
-msgid "01-icerok-delay-measurement"
+msgid "Alhambra-II"
 msgstr ""
 
 #: translation.js:180
+msgid "NandLand-Go-board"
+msgstr ""
+
+#: translation.js:181
+msgid "02-icerok-delay-measurement-2"
+msgstr ""
+
+#: translation.js:182
 msgid ""
 "Detección de pulsación. Emite un tic cada vez que se aprieta el pulsador"
 msgstr ""
 
-#: translation.js:181
-msgid "D Flip-flop"
-msgstr "Biestable D"
-
-#: translation.js:182
-msgid "2 channel icerok probe adaptor"
-msgstr ""
-
 #: translation.js:183
-msgid "Agregador de 2 buses de 6 y 2-bits a bus de 8-bits"
-msgstr ""
-
-#: translation.js:184
-msgid "Valor constante 0, de 6 bits"
-msgstr ""
-
-#: translation.js:185
-msgid ""
-"Valor genérico constante, de 6 bits. Su valor se introduce como parámetro. "
-"Por defecto vale 0"
-msgstr ""
-
-#: translation.js:186
-msgid "Agregador de 2 cables en un bus de 2-bits"
-msgstr ""
-
-#: translation.js:187
-msgid "## Unit Under test"
-msgstr "## Componente a comprobar"
-
-#: translation.js:188
-msgid ""
-"Input data (1 bit)  \n"
-"Cycle n"
-msgstr ""
-"Dato de entrada (1 bit) \n"
-"    \n"
-"Ciclo n"
-
-#: translation.js:189
-msgid ""
-"Output data (1 bit)  \n"
-"Cycle n+1"
-msgstr ""
-"Dato de salida (1 bit) \n"
-"    \n"
-"Ciclo n+1"
-
-#: translation.js:190
-msgid ""
-"## Input data\n"
-"\n"
-"1-period pulse generated manually  \n"
-"(by pressing the button)"
-msgstr ""
-"## Datos de entrada\n"
-"\n"
-"Pulse de 1 periodo (tic) generado manualmente  \n"
-"(Presionando el pulsador)"
-
-#: translation.js:191
-msgid "## Logic analyzer"
-msgstr "## Analizador lógico"
-
-#: translation.js:192
-msgid "Trigger condition: pulse in d"
-msgstr "Condición de disparo: pulso en d"
-
-#: translation.js:193
-msgid "2 channel adaptor"
-msgstr "adaptador de 2 canales"
-
-#: translation.js:194
-msgid ""
-"Data being measured:  \n"
-"* Channel 1: Output (q)\n"
-"* Channel 0: Input (d)"
-msgstr ""
-"Datos a medir:  \n"
-"* Canal 1: Salida (q)  \n"
-"* Canal 0: Entrada (d)"
-
-#: translation.js:195
-msgid ""
-"# D Flip-Flop: Manual testing with Logic Analyzer\n"
-"\n"
-"When the button sw1 is pressed, a 1-period pulse  \n"
-"is written to the Flip-flop input (d). Also, the  \n"
-"logic analyzer is trigger  \n"
-"\n"
-"The same pulse should be seen on the q output, but  \n"
-"one cycle later"
-msgstr ""
-"# Biestable D: Prueba manual con el analizador lógico\n"
-"\n"
-"Cuando se aprieta sw1, se produce un pulse de 1 periodo  \n"
-"de duración (tic) en la entrada del biestable. Se arranca  \n"
-"la captura del analizador lógico  \n"
-"\n"
-"El mismo pulse se debe observar en la salida q, pero  \n"
-"retrasada un ciclo"
-
-#: translation.js:196
-msgid "**Pulsador-tic**"
-msgstr ""
-
-#: translation.js:197
-msgid "02-icerok-delay-measurement-2"
-msgstr ""
-
-#: translation.js:198
 msgid "Circuito combinacional de 4 entradas y 1 salidas"
 msgstr ""
 
-#: translation.js:199
+#: translation.js:184
 msgid "4 channel icerok probe adaptor"
 msgstr "adaptador de 4 canales para la sonda icerok"
 
-#: translation.js:200
+#: translation.js:185
 msgid ""
 "# D Flip-Flop: Delaying a signal\n"
 "\n"
@@ -1115,19 +1013,45 @@ msgstr ""
 "de las dos señales:  \n"
 "entrada y salida. Su forma debe ser exactamente igual\n"
 
-#: translation.js:201
+#: translation.js:186
+msgid "## Unit Under test"
+msgstr "## Componente a comprobar"
+
+#: translation.js:187
+msgid ""
+"Input data (1 bit)  \n"
+"Cycle n"
+msgstr ""
+"Dato de entrada (1 bit) \n"
+"    \n"
+"Ciclo n"
+
+#: translation.js:188
+msgid ""
+"Output data (1 bit)  \n"
+"Cycle n+1"
+msgstr ""
+"Dato de salida (1 bit) \n"
+"    \n"
+"Ciclo n+1"
+
+#: translation.js:189
+msgid "D Flip-flop"
+msgstr "Biestable D"
+
+#: translation.js:190
 msgid "## Start the capture"
 msgstr "## Comenzar la captura"
 
-#: translation.js:202
+#: translation.js:191
 msgid "Trigger condition: Pushbutton"
 msgstr "Condición de disparo: pulsador"
 
-#: translation.js:203
+#: translation.js:192
 msgid "4 channel adaptor"
 msgstr "adaptador de 4 canales"
 
-#: translation.js:204
+#: translation.js:193
 msgid ""
 "## Logic analyzer\n"
 "\n"
@@ -1147,15 +1071,19 @@ msgstr ""
 "* Canal 1: Entrada del biestable\n"
 "* Canal 0: Señal de disparo"
 
-#: translation.js:205
+#: translation.js:194
 msgid "## Input data generation"
 msgstr "## Generación de los datos de entrada"
 
-#: translation.js:206
+#: translation.js:195
+msgid "**Pulsador-tic**"
+msgstr ""
+
+#: translation.js:196
 msgid "03-icerok-and-autocheck"
 msgstr ""
 
-#: translation.js:207
+#: translation.js:197
 msgid ""
 "# D Flip-Flop: Auto check\n"
 "\n"
@@ -1183,11 +1111,11 @@ msgstr ""
 "En cualquier otro caso, aparece un pulso por el pin error y  \n"
 "todos los LEDs parpadean a la vez"
 
-#: translation.js:208
+#: translation.js:198
 msgid "## Start the Checking"
 msgstr "## Comenzar la comprobación"
 
-#: translation.js:209
+#: translation.js:199
 msgid ""
 "##  Show Results\n"
 "\n"
@@ -1203,7 +1131,7 @@ msgstr ""
 "Se detiene al empezar una nueva  \n"
 "comprobación"
 
-#: translation.js:210
+#: translation.js:200
 msgid ""
 "## Testbench  \n"
 "\n"
@@ -1217,7 +1145,7 @@ msgstr ""
 "entrada del biestable D y  \n"
 "leer su salida"
 
-#: translation.js:211
+#: translation.js:201
 msgid ""
 "Bits sent to the  \n"
 "D Flip-Flops"
@@ -1225,7 +1153,7 @@ msgstr ""
 "Bits enviados  \n"
 "al biestable D"
 
-#: translation.js:212
+#: translation.js:202
 msgid ""
 "Response from the  \n"
 "D Flip-Flop"
@@ -1233,9 +1161,97 @@ msgstr ""
 "Respuesta del  \n"
 "Biestable D"
 
-#: translation.js:213
+#: translation.js:203
 msgid "Icerok output"
 msgstr "Salida para Icerok"
+
+#: translation.js:204 translation.js:218
+msgid "01-icerok-delay-measurement"
+msgstr ""
+
+#: translation.js:205
+msgid "2 channel icerok probe adaptor"
+msgstr ""
+
+#: translation.js:206
+msgid "Agregador de 2 buses de 6 y 2-bits a bus de 8-bits"
+msgstr ""
+
+#: translation.js:207
+msgid "Valor constante 0, de 6 bits"
+msgstr ""
+
+#: translation.js:208
+msgid ""
+"Valor genérico constante, de 6 bits. Su valor se introduce como parámetro. "
+"Por defecto vale 0"
+msgstr ""
+
+#: translation.js:209
+msgid "Agregador de 2 cables en un bus de 2-bits"
+msgstr ""
+
+#: translation.js:210
+msgid "Serial transmiter for the stdout bus (1 char buffer). Sysclk parameter"
+msgstr ""
+
+#: translation.js:211
+msgid "Serial transmitter with system clock freq parameter"
+msgstr ""
+
+#: translation.js:212
+msgid ""
+"## Input data\n"
+"\n"
+"1-period pulse generated manually  \n"
+"(by pressing the button)"
+msgstr ""
+"## Datos de entrada\n"
+"\n"
+"Pulse de 1 periodo (tic) generado manualmente  \n"
+"(Presionando el pulsador)"
+
+#: translation.js:213
+msgid "## Logic analyzer"
+msgstr "## Analizador lógico"
+
+#: translation.js:214
+msgid "Trigger condition: pulse in d"
+msgstr "Condición de disparo: pulso en d"
+
+#: translation.js:215
+msgid "2 channel adaptor"
+msgstr "adaptador de 2 canales"
+
+#: translation.js:216
+msgid ""
+"Data being measured:  \n"
+"* Channel 1: Output (q)\n"
+"* Channel 0: Input (d)"
+msgstr ""
+"Datos a medir:  \n"
+"* Canal 1: Salida (q)  \n"
+"* Canal 0: Entrada (d)"
+
+#: translation.js:217
+msgid ""
+"# D Flip-Flop: Manual testing with Logic Analyzer\n"
+"\n"
+"When the button sw1 is pressed, a 1-period pulse  \n"
+"is written to the Flip-flop input (d). Also, the  \n"
+"logic analyzer is trigger  \n"
+"\n"
+"The same pulse should be seen on the q output, but  \n"
+"one cycle later"
+msgstr ""
+"# Biestable D: Prueba manual con el analizador lógico\n"
+"\n"
+"Cuando se aprieta sw1, se produce un pulse de 1 periodo  \n"
+"de duración (tic) en la entrada del biestable. Se arranca  \n"
+"la captura del analizador lógico  \n"
+"\n"
+"El mismo pulse se debe observar en la salida q, pero  \n"
+"retrasada un ciclo"
 
 #~ msgid "House"
 #~ msgstr "Casaaaaaaa"
