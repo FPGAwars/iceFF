@@ -330,8 +330,8 @@
           "id": "d7fc3e25-0868-4bf9-9710-74a33b27f116",
           "type": "basic.constant",
           "data": {
-            "name": "12MHz",
-            "value": "12000000",
+            "name": "25MHz",
+            "value": "25000000",
             "local": false
           },
           "position": {
