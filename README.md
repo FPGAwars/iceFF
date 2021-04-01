@@ -5,8 +5,6 @@
 
 Working with Flip-Flops.
 
-![](wiki/iceFF-logo.png)
-
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/iceFF/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceFF/archive/master.zip)
@@ -16,24 +14,14 @@ Working with Flip-Flops.
 ## Blocks
 * *FFs*
   * DFF
-* *Testbenches*
-  * DFF-TB
-  * TB-Display
 
 ## Examples
 * *TESTs*
-  * *DFF*
-    * 02-icerok-delay-measurement-2
-    * 03-icerok-and-autocheck
-    * *Alhambra-II*
-      * 01-icerok-delay-measurement
-    * *NandLand-Go-board*
-      * 01-icerok-delay-measurement
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/31) |
+| es_ES | ![Progress](http://progressed.io/bar/30) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)

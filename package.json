@@ -1,12 +1,12 @@
 {
-  "name": "iceFF",
+  "name": "iceff",
   "version": "0.1.0",
   "description": "Working with Flip-Flops",
-  "keywords": "FF, flip-flop, basic",
+  "keywords": ["FF", "flip-flop", "basic"],
   "license": "GPL-2.0",
   "authors": [{
     "name": "Juan Gonzalez-Gomez (Obijuan)",
-    "email": "",
+    "email": "obijuan.cube@gmail.com",
     "url": "https://github.com/Obijuan"
   }],
   "contributors": [],
@@ -16,3 +16,4 @@
     "url": "https://github.com/FPGAwars/iceFF"
   }
 }
+
