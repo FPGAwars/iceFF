@@ -3,6 +3,8 @@
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v0.1.0-orange.svg)
 
+![](wiki/iceFF-logo.png)
+
 Working with Flip-Flops.
 
 ## Install
