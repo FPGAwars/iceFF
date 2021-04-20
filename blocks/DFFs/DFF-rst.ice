@@ -2,7 +2,7 @@
   "version": "1.2",
   "package": {
     "name": "DFF-rst-x01",
-    "version": "0.1",
+    "version": "0.2",
     "description": "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22156.57%22%20height=%22216.83%22%20viewBox=%220%200%2041.425941%2057.369679%22%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M25.682%2040.152L39.29%2056.824%2032.372%2036.29%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M18.298%2032.088L9.066%2012.475l-6.45%203.724-2.07-3.583L21.451.546%2023.52%204.13l-6.092%203.517%2012.03%2018.223s5.399-2.025%208.535.74c3.137%202.766%202.52%204.92%202.887%204.772L17.192%2045.02s-2.848-3.695-2.16-6.795c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3C/svg%3E",
@@ -61,8 +61,7 @@
           "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
           "type": "basic.output",
           "data": {
-            "name": "",
-            "virtual": false
+            "name": ""
           },
           "position": {
             "x": 856,
@@ -74,8 +73,7 @@
           "type": "basic.input",
           "data": {
             "name": "rst",
-            "clock": false,
-            "virtual": false
+            "clock": false
           },
           "position": {
             "x": 200,
@@ -87,12 +85,24 @@
           "type": "basic.input",
           "data": {
             "name": "d",
-            "clock": false,
-            "virtual": false
+            "clock": false
           },
           "position": {
             "x": 200,
             "y": 80
+          }
+        },
+        {
+          "id": "63e9825a-4f37-4c3c-b118-e2bbd28d5ac7",
+          "type": "basic.constant",
+          "data": {
+            "name": "",
+            "value": "0",
+            "local": false
+          },
+          "position": {
+            "x": 712,
+            "y": -160
           }
         },
         {
@@ -178,6 +188,22 @@
             "width": 144,
             "height": 40
           }
+        },
+        {
+          "id": "9833aab1-3c8e-40a6-859b-ce1960837256",
+          "type": "basic.info",
+          "data": {
+            "info": "Initial default  \nvalue: 0",
+            "readonly": true
+          },
+          "position": {
+            "x": 720,
+            "y": -200
+          },
+          "size": {
+            "width": 152,
+            "height": 64
+          }
         }
       ],
       "wires": [
@@ -252,6 +278,16 @@
           "target": {
             "block": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
             "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "63e9825a-4f37-4c3c-b118-e2bbd28d5ac7",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "c6fe1ff6-d9a1-4a52-8477-cba886daacb9",
+            "port": "65194b18-5d2a-41b2-bd86-01be99978ad6"
           }
         }
       ]
