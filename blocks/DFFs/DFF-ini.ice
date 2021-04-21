@@ -13,6 +13,18 @@
     "graph": {
       "blocks": [
         {
+          "id": "86c245f5-6c99-405b-8629-a886ea44b514",
+          "type": "basic.output",
+          "data": {
+            "name": "nc",
+            "virtual": false
+          },
+          "position": {
+            "x": 1048,
+            "y": -360
+          }
+        },
+        {
           "id": "e5f6cfba-f822-4d53-a924-926407bc4e3f",
           "type": "basic.input",
           "data": {
@@ -45,6 +57,30 @@
           }
         },
         {
+          "id": "da26fd86-8656-4b80-b0f0-734ec6cbed2b",
+          "type": "basic.output",
+          "data": {
+            "name": "ini",
+            "virtual": false
+          },
+          "position": {
+            "x": 1048,
+            "y": -176
+          }
+        },
+        {
+          "id": "afda908d-a748-4b5d-a8dc-53c0c50e514e",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "ini"
+          },
+          "position": {
+            "x": 888,
+            "y": -176
+          }
+        },
+        {
           "id": "4caec7c8-0763-44fc-9b7b-110e0260b74b",
           "type": "basic.outputLabel",
           "data": {
@@ -61,10 +97,11 @@
           "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
           "type": "basic.output",
           "data": {
-            "name": ""
+            "name": "q",
+            "virtual": false
           },
           "position": {
-            "x": 856,
+            "x": 1048,
             "y": -56
           }
         },
@@ -73,8 +110,7 @@
           "type": "basic.input",
           "data": {
             "name": "ini",
-            "clock": false,
-            "virtual": false
+            "clock": false
           },
           "position": {
             "x": -32,
@@ -108,14 +144,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "d",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -128,19 +156,11 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "ini",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true
+            "name": "ini"
           },
           "position": {
             "x": 336,
-            "y": 32
+            "y": 40
           }
         },
         {
@@ -288,6 +308,22 @@
             "width": 96,
             "height": 96
           }
+        },
+        {
+          "id": "95fb1c75-2b26-4a94-a357-d74ac4a25ded",
+          "type": "basic.info",
+          "data": {
+            "info": "the ini input is output  \nagain for easy connection  \nof more flip-flops",
+            "readonly": true
+          },
+          "position": {
+            "x": 984,
+            "y": -248
+          },
+          "size": {
+            "width": 248,
+            "height": 104
+          }
         }
       ],
       "wires": [
@@ -350,6 +386,16 @@
           "target": {
             "block": "78fe50a4-dcc6-4ae8-b754-1c477131be74",
             "port": "08fac044-f451-4fb7-9668-f5bce3b40c2c"
+          }
+        },
+        {
+          "source": {
+            "block": "afda908d-a748-4b5d-a8dc-53c0c50e514e",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "da26fd86-8656-4b80-b0f0-734ec6cbed2b",
+            "port": "in"
           }
         },
         {
