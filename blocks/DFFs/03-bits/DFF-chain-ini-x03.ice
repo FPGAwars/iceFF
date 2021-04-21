@@ -1,8 +1,8 @@
 {
   "version": "1.2",
   "package": {
-    "name": "DFF-chain-ini-x03",
-    "version": "0.2",
+    "name": "DFF-chain-ini-x03 CLONE",
+    "version": "0.2-c1618988542762",
     "description": "DFF-chain-ini-x03: D Flip flops connected in serial. When ini=1, they are initialized to its parameter",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20width=%22394.35%22%20height=%22259.697%22%20viewBox=%220%200%20104.33846%2068.711624%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(-52.22%20-36.686)%22%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M77.902%2088.18l13.607%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M70.517%2080.116l-9.232-19.613-6.45%203.725-2.07-3.584%2020.905-12.07%202.07%203.584-6.093%203.518%2012.03%2018.222s5.4-2.025%208.536.74c3.136%202.766%202.52%204.92%202.887%204.773L69.412%2093.049s-2.848-3.696-2.16-6.796c.687-3.1%203.265-6.137%203.265-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M126.802%2088.18l13.607%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M119.418%2080.116l-9.233-19.613-6.45%203.725-2.07-3.584%2020.906-12.07%202.069%203.584-6.093%203.518%2012.03%2018.222s5.4-2.025%208.536.74c3.136%202.766%202.52%204.92%202.887%204.773l-23.688%2013.638s-2.848-3.696-2.16-6.796c.687-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cpath%20style=%22-inkscape-stroke:none%22%20d=%22M98.64%2077.005h10.65%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cpath%20d=%22M95.259%2075.41c-.832%200-1.507.662-1.508%201.48%200%20.818.676%201.48%201.508%201.48h13.709c.832%200%201.507-.662%201.507-1.48s-.675-1.48-1.507-1.48z%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20color=%22#000%22%20fill-rule=%22evenodd%22%20fill=%22#00f%22%20stroke-width=%221.428%22%3E%3Cpath%20style=%22-inkscape-stroke:none%22%20d=%22M113.601%2077.005l-6.463%203.674V73.33z%22/%3E%3Cpath%20style=%22-inkscape-stroke:none%22%20d=%22M70.553%20186.299v13.027l11.271-6.513-1.056-.612zm1.412%202.445l7.039%204.069-7.04%204.07z%22%20stroke=%22#00f%22%20transform=%22matrix(.70596%200%200%20.69423%2056.832%20-56.851)%22/%3E%3C/g%3E%3Ccircle%20cx=%22141.44%22%20cy=%2251.805%22%20r=%2214.493%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%221.251%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%22132.674%22%20y=%2256.973%22%20font-weight=%22400%22%20font-size=%2216.677%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.417%22%3E%3Ctspan%20x=%22132.674%22%20y=%2256.973%22%3Ex3%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E",
@@ -42,6 +42,40 @@
           "position": {
             "x": 40,
             "y": -416
+          }
+        },
+        {
+          "id": "67f66132-e51f-4993-9ab1-65272662cc3f",
+          "type": "basic.output",
+          "data": {
+            "name": "nc"
+          },
+          "position": {
+            "x": 1056,
+            "y": -336
+          }
+        },
+        {
+          "id": "d0a1794f-9d1b-4752-85b8-c1a6408194dc",
+          "type": "basic.output",
+          "data": {
+            "name": "ini"
+          },
+          "position": {
+            "x": 1048,
+            "y": -216
+          }
+        },
+        {
+          "id": "dc8b45aa-30ef-41de-a2ad-fa7cbf0a94ad",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "ini"
+          },
+          "position": {
+            "x": 904,
+            "y": -216
           }
         },
         {
@@ -94,7 +128,8 @@
           "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
           "type": "basic.output",
           "data": {
-            "name": ""
+            "name": "q",
+            "virtual": false
           },
           "position": {
             "x": 904,
@@ -336,6 +371,17 @@
             "block": "a0c0086a-81fe-4bfc-92fe-1a99b115ef12",
             "port": "d"
           }
+        },
+        {
+          "source": {
+            "block": "dc8b45aa-30ef-41de-a2ad-fa7cbf0a94ad",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "d0a1794f-9d1b-4752-85b8-c1a6408194dc",
+            "port": "in"
+          },
+          "vertices": []
         },
         {
           "source": {
