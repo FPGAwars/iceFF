@@ -48,7 +48,7 @@
           },
           "position": {
             "x": -256,
-            "y": 264
+            "y": 248
           },
           "size": {
             "width": 112,
@@ -176,7 +176,7 @@
           "type": "053dc2e26797e60dd454402e395eb23f388681b9",
           "position": {
             "x": -272,
-            "y": 312
+            "y": 296
           },
           "size": {
             "width": 96,
@@ -279,7 +279,7 @@
             "readonly": true
           },
           "position": {
-            "x": 456,
+            "x": 464,
             "y": 232
           },
           "size": {
@@ -295,8 +295,8 @@
             "readonly": true
           },
           "position": {
-            "x": 632,
-            "y": 224
+            "x": 640,
+            "y": 240
           },
           "size": {
             "width": 136,
