@@ -48,7 +48,7 @@
           "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
           "type": "basic.output",
           "data": {
-            "name": "output",
+            "name": "",
             "virtual": false
           },
           "position": {
@@ -62,14 +62,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "q",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -95,8 +87,7 @@
           "type": "basic.input",
           "data": {
             "name": "set",
-            "clock": false,
-            "virtual": false
+            "clock": false
           },
           "position": {
             "x": 216,
@@ -150,8 +141,7 @@
           "type": "basic.input",
           "data": {
             "name": "reset",
-            "clock": false,
-            "virtual": false
+            "clock": false
           },
           "position": {
             "x": 224,
@@ -185,14 +175,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "q",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -206,14 +188,6 @@
           "data": {
             "blockColor": "royalblue",
             "name": "set",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -227,14 +201,6 @@
           "data": {
             "blockColor": "navy",
             "name": "reset",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
