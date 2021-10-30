@@ -48,7 +48,8 @@
           "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
           "type": "basic.output",
           "data": {
-            "name": "output"
+            "name": "",
+            "virtual": false
           },
           "position": {
             "x": 1496,
