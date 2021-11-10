@@ -152,7 +152,7 @@
           "id": "d1657b53-63b3-4136-981b-b74e300a8592",
           "type": "basic.info",
           "data": {
-            "info": "# DFF-ini-x02: Manual testing with two pushbutton and two LEDs\n\nThe state of the pushbuttons is shown on the LEDs",
+            "info": "# DFF-ini-x02: Manual testing\n\nThe value of the register is shown on the LEDscope",
             "readonly": true
           },
           "position": {
