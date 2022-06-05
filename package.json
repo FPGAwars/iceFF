@@ -2,6 +2,9 @@
   "name": "iceff",
   "version": "0.1.0",
   "description": "Working with Flip-Flops",
+  "header": "https://github.com/FPGAwars/iceFF/raw/master/wiki/Logo/iceFF-collection-github.png",
+  "footer": "https://github.com/FPGAwars/iceFF/raw/master/wiki/Logo/iceFF-banner.png",
+  "wiki": "https://github.com/FPGAwars/iceFF/wiki",
   "keywords": ["FF", "flip-flop", "basic"],
   "license": "GPL-2.0",
   "authors": [{
