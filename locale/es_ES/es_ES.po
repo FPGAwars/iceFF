@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-04-01 12:28+0200\n"
+"POT-Creation-Date: 2022-06-05 12:25+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: translation.js\n"
 
 #: translation.js:10
-msgid "FFs"
-msgstr "Biestables"
+msgid "DFFs"
+msgstr ""
 
 #: translation.js:11
 msgid "DFF"
@@ -54,9 +54,44 @@ msgstr ""
 "Almacena el dato de la entrada que llega en el ciclo n  \n"
 "Saca su valor en el ciclo n+1"
 
-#: translation.js:18
-msgid "TESTs"
-msgstr "Pruebas"
+#: translation.js:18 translation.js:22
+msgid "00-index"
+msgstr ""
+
+#: translation.js:19
+msgid "# INDEX: IceFF Collection"
+msgstr ""
+
+#: translation.js:20
+#, fuzzy
+#| msgid "D Flip-flop"
+msgid "D Flip-Flop"
+msgstr "Biestable D"
+
+#: translation.js:21
+msgid "## DFFs"
+msgstr ""
+
+#, fuzzy
+#~| msgid "D Flip-flop (verilog implementation)"
+#~ msgid "NOT gate (Verilog implementation)"
+#~ msgstr "Biestable D (Implementación en verilog)"
+
+#, fuzzy
+#~| msgid "D Flip-flop"
+#~ msgid "T Flip-Flop"
+#~ msgstr "Biestable D"
+
+#, fuzzy
+#~| msgid "Input data"
+#~ msgid "Input"
+#~ msgstr "Dato de entrada"
+
+#~ msgid "FFs"
+#~ msgstr "Biestables"
+
+#~ msgid "TESTs"
+#~ msgstr "Pruebas"
 
 #~ msgid "Testbenches"
 #~ msgstr "Bancos de pruebas"
@@ -300,9 +335,6 @@ msgstr "Pruebas"
 #~ "Dato de salida (1 bit) \n"
 #~ "    \n"
 #~ "Ciclo n+1"
-
-#~ msgid "D Flip-flop"
-#~ msgstr "Biestable D"
 
 #~ msgid "## Start the capture"
 #~ msgstr "## Comenzar la captura"
