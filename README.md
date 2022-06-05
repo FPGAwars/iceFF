@@ -28,14 +28,17 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/58) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/12) |
 
 ## Blocks
 * **DFFs**
-  * DFF
+  * Sys-DFF
 
 ## Examples
 * 00-index
+* **TESTs**
+  * **DFFs**
+    * 01-manual-testing
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
