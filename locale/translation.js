@@ -19,4 +19,3 @@ gettext('00-index');
 gettext('# INDEX: IceFF Collection');
 gettext('D Flip-Flop');
 gettext('## DFFs');
-gettext('00-index');
