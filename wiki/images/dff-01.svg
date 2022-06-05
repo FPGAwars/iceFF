@@ -35,7 +35,7 @@
      inkscape:window-x="62"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer1"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-global="false"
@@ -3616,25 +3616,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:9.95075px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.248769"
-       x="123.81831"
-       y="46.787655"
+       x="126.24494"
+       y="75.831093"
        id="text3278-6"
        inkscape:export-filename="/home/obijuan/Develop/Icestudio-collections2/iceCoders/wiki/images/encoder-2-1-01.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          style="stroke-width:0.248769"
-         x="123.81831"
-         y="46.787655"
+         x="126.24494"
+         y="75.831093"
          id="tspan58497">Output</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.248769"
-         x="123.81831"
-         y="59.226093"
+         x="126.24494"
+         y="88.269531"
          id="tspan25256">(1-bit)</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.656543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-8-4)"
-       d="m 119.16325,53.758738 -17.73869,9.906304"
+       d="M 121.19615,75.902857 103.45746,65.996553"
        id="path7194"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="/home/obijuan/Develop/Icestudio-collections2/iceCoders/wiki/images/encoder-2-1-01.png"
@@ -3810,17 +3810,73 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:9.95075px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.248769"
-       x="119.86026"
-       y="77.274284"
+       x="115.86106"
+       y="107.38275"
        id="text25779"
        inkscape:export-filename="/home/obijuan/Develop/Icestudio-collections2/iceCoders/wiki/images/encoder-2-1-01.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          style="fill:#0000ff;stroke-width:0.248769"
-         x="119.86026"
-         y="77.274284"
+         x="115.86106"
+         y="107.38275"
          id="tspan25777">Cycle n+1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.95075px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.248769"
+       x="104.52504"
+       y="26.99148"
+       id="text26843"
+       inkscape:export-filename="/home/obijuan/Develop/Icestudio-collections2/iceCoders/wiki/images/encoder-2-1-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.248769"
+         x="104.52504"
+         y="26.99148"
+         id="tspan26841"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+   id="tspan26849">System component</tspan>: It captures</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.248769"
+         x="104.52504"
+         y="39.429916"
+         id="tspan26847">input data on every clock cycle</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.656543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-8-4)"
+       d="M 101.77937,28.251269 69.006346,50.362888"
+       id="path26851"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/obijuan/Develop/Icestudio-collections2/iceCoders/wiki/images/encoder-2-1-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.656543;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-8-4)"
+       d="M 69.557646,3.3265194 53.185749,32.60532"
+       id="path27379"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/obijuan/Develop/Icestudio-collections2/iceCoders/wiki/images/encoder-2-1-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.95075px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.248769"
+       x="72.12043"
+       y="-3.1659949"
+       id="text27910"
+       inkscape:export-filename="/home/obijuan/Develop/Icestudio-collections2/iceCoders/wiki/images/encoder-2-1-01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.248769"
+         x="72.12043"
+         y="-3.1659949"
+         id="tspan27908">Input parameter:</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.248769"
+         x="72.12043"
+         y="9.2724428"
+         id="tspan27912">Initial value</tspan></text>
   </g>
   <style
      id="style263">.st0{display:none}.st1{fill:none;stroke:#000;stroke-width:.75;stroke-linejoin:round;stroke-miterlimit:10}.st2{fill:#010002}</style>
