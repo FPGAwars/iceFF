@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="57.25032mm"
-   height="74.059853mm"
-   viewBox="0 0 57.25032 74.059853"
+   width="41.425941mm"
+   height="57.369678mm"
+   viewBox="0 0 41.425941 57.369679"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="FF-D.svg">
+   sodipodi:docname="FF-D-system.svg">
   <defs
      id="defs2">
     <marker
@@ -358,8 +358,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-46.601205"
-     inkscape:cy="-98.235244"
+     inkscape:cx="-62.838454"
+     inkscape:cy="-62.744789"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -370,7 +370,7 @@
      inkscape:window-width="1853"
      inkscape:window-height="1025"
      inkscape:window-x="67"
-     inkscape:window-y="1107"
+     inkscape:window-y="1051"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -388,7 +388,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-36.395122,-48.028358)">
+     transform="translate(-52.219501,-48.028358)">
     <g
        transform="matrix(0.8834878,-0.51008192,0.51008192,0.8834878,-27.367585,76.141067)"
        id="layer1-6"
@@ -423,22 +423,6 @@
          preserveAspectRatio="none"
          height="124.35416"
          width="119.0625" />
-    </g>
-    <g
-       transform="matrix(1.0907316,0,0,1.0907316,-57.122785,25.363383)"
-       id="g992-9">
-      <circle
-         style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#008000;stroke-width:0.60844254;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path992-2-2"
-         cx="100.60208"
-         cy="73.815468"
-         r="14.559162" />
-      <path
-         style="fill:none;stroke:#008000;stroke-width:1.52110636;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 106.97785,82.141683 h -3.35236 V 63.316223 H 97.540294 V 81.99432 h -3.65214"
-         id="path1773-2-3-1-8-9-57"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccc" />
     </g>
   </g>
 </svg>
