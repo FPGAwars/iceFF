@@ -23,6 +23,8 @@ gettext('D Flip-Flop');
 gettext('## DFFs');
 gettext('# D Flip-Flop  \n\nIt stores the input data that arrives at cycle n  \nIts output is shown in the cycle n+1');
 gettext('DFFs');
+gettext('Sys-DFF');
+gettext('Alhambra-II');
 gettext('01-manual-testing');
 gettext('Constant bit 0');
 gettext('Ledoscope. Capture the input signal during the first 4 cycles after circuit initialization');
