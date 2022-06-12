@@ -37,7 +37,10 @@ For installing and using this colection in Icestudio follow these steps:
   * Sys-DFF-rst
   * Sys-DFF
 * **TFFs**
+  * TFF-rst
+  * TFF-sys-rst
   * TFF-sys
+  * TFF
 
 ## Examples
 * 00-index
@@ -57,7 +60,17 @@ For installing and using this colection in Icestudio follow these steps:
         * 01-manual-testing
   * **TFFs**
     * **TFF**
-      * 01-manual-testing
+    * **TFF-Sys**
+      * **Alhambra-II**
+        * 01-manual-testing
+    * **TFF-rst**
+      * **Alhambra-II**
+        * 01-manual-testing
+    * **TFF-sys-rst**
+      * **Alhambra-II**
+        * 01-manual-testing
+      * **Alhambra-II**
+        * 01-manual-testing
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
