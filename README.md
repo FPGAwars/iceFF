@@ -38,7 +38,9 @@ For installing and using this colection in Icestudio follow these steps:
 * 00-index
 * **TESTs**
   * **DFFs**
-    * 01-manual-testing
+    * **Sys-DFF**
+      * **Alhambra-II**
+        * 01-manual-testing
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
