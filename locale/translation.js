@@ -8,6 +8,7 @@
 // 2. Press "Update" to update from sources
 
 gettext('DFFs');
+gettext('TFFs');
 gettext('DFF-rst');
 gettext('D Flip-Flop with load and reset');
 gettext('2-to-1 Multplexer (1-bit channels)');
@@ -38,6 +39,8 @@ gettext('Sys-DFF-rst');
 gettext('Sys-DFF');
 gettext('System - D Flip-flop. Capture data every system clock cycle');
 gettext('# D Flip-Flop  (system)\n\nIt stores the input data that arrives at cycle n  \nIts output is shown in the cycle n+1');
+gettext('TFF-sys');
+gettext('System TFF: It toogles its output on every system cycle');
 gettext('TESTs');
 gettext('00-index');
 gettext('# INDEX: IceFF Collection');
@@ -47,7 +50,9 @@ gettext('System DFF-rst');
 gettext('D Flip-Flop');
 gettext('D Flip-Flop rst');
 gettext('## TFFs');
+gettext('System TFF');
 gettext('DFFs');
+gettext('TFFs');
 gettext('DFF');
 gettext('DFF-rst');
 gettext('Sys-DFF');
@@ -155,3 +160,6 @@ gettext('Priority for the set');
 gettext('01-manual-testing');
 gettext('## Sys-DFF: Manual testing\n\nAn Initial pulse is generated. Its initial value is 1, and then it  \nchange to 0 in the next cycle. The signal can be observed with the OSCILOSCOPE');
 gettext('Values for cycles >= 1');
+gettext('TFF');
+gettext('01-manual-testing');
+gettext('# TFF-sys: Manual testing');
