@@ -28,10 +28,11 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/12) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/11) |
 
 ## Blocks
 * **DFFs**
+  * Sys-DFF-rst
   * Sys-DFF
 
 ## Examples
@@ -39,6 +40,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **TESTs**
   * **DFFs**
     * **Sys-DFF**
+    * **Sys-DFF-rst**
+      * **Alhabra-II**
+        * 01-manual-testing
       * **Alhambra-II**
         * 01-manual-testing
 
