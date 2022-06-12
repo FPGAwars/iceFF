@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-12 10:00+0000\n"
+"POT-Creation-Date: 2022-06-12 11:00+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -15,35 +15,111 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
-#: translation.js:10 translation.js:25
+#: translation.js:10 translation.js:39
 msgid "DFFs"
 msgstr ""
 
-#: translation.js:11 translation.js:26
-msgid "Sys-DFF"
+#: translation.js:11 translation.js:41
+msgid "Sys-DFF-rst"
 msgstr ""
 
 #: translation.js:12
-msgid "System - D Flip-flop. Capture data every system clock cycle"
+msgid ""
+"DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is set to it "
+"initial value"
 msgstr ""
 
 #: translation.js:13
-msgid "Parameter: Initial value"
-msgstr "Parámetro: Valor inicial"
+msgid "D Flip-flop (verilog implementation)"
+msgstr "Biestable D (Implementación en verilog)"
 
 #: translation.js:14
+msgid "2-to-1 Multplexer (1-bit channels)"
+msgstr ""
+
+#: translation.js:15
+msgid "OR2: Two bits input OR gate"
+msgstr ""
+
+#: translation.js:16
+msgid "Two bits input And gate"
+msgstr ""
+
+#: translation.js:17
+#, fuzzy
+msgid "NOT gate (Verilog implementation)"
+msgstr "Biestable D (Implementación en verilog)"
+
+#: translation.js:18
+msgid "1-bit generic constant (0/1)"
+msgstr ""
+
+#: translation.js:19
+msgid ""
+"Reset input: Active high  \n"
+"When rst = 1, the DFF is set to its initial value"
+msgstr ""
+
+#: translation.js:20
+msgid "Data input"
+msgstr ""
+
+#: translation.js:21
 msgid "System clock"
 msgstr "Reloj del sistema"
 
-#: translation.js:15
+#: translation.js:22
+msgid ""
+"Initial default  \n"
+"value: 0"
+msgstr ""
+
+#: translation.js:23
+msgid "Syste DFF"
+msgstr ""
+
+#: translation.js:24
+msgid "Mux-2-1"
+msgstr ""
+
+#: translation.js:25
+msgid "Parameter: Initial value"
+msgstr "Parámetro: Valor inicial"
+
+#: translation.js:26
 msgid "Input data"
 msgstr "Dato de entrada"
 
-#: translation.js:16
+#: translation.js:27
 msgid "Output"
 msgstr "Salida"
 
-#: translation.js:17
+#: translation.js:28
+msgid ""
+"# D Flip-Flop  \n"
+"\n"
+"It stores the input data that arrives at cycle n  \n"
+"Its output is shown in the cycle n+1"
+msgstr ""
+"# Biestable D \n"
+"\n"
+"Almacena el dato de la entrada que llega en el ciclo n  \n"
+"Saca su valor en el ciclo n+1"
+
+#: translation.js:29
+#, fuzzy
+msgid "Input"
+msgstr "Dato de entrada"
+
+#: translation.js:30 translation.js:40
+msgid "Sys-DFF"
+msgstr ""
+
+#: translation.js:31
+msgid "System - D Flip-flop. Capture data every system clock cycle"
+msgstr ""
+
+#: translation.js:32
 #, fuzzy
 msgid ""
 "# D Flip-Flop  (system)\n"
@@ -56,147 +132,213 @@ msgstr ""
 "Almacena el dato de la entrada que llega en el ciclo n  \n"
 "Saca su valor en el ciclo n+1"
 
-#: translation.js:18
+#: translation.js:33
 msgid "TESTs"
 msgstr "Pruebas"
 
-#: translation.js:19
+#: translation.js:34
 msgid "00-index"
 msgstr ""
 
-#: translation.js:20
-msgid "D Flip-flop (verilog implementation)"
-msgstr "Biestable D (Implementación en verilog)"
-
-#: translation.js:21
+#: translation.js:35
 msgid "# INDEX: IceFF Collection"
 msgstr ""
 
-#: translation.js:22
+#: translation.js:36
 #, fuzzy
-msgid "D Flip-Flop"
+msgid "System D Flip-Flop"
 msgstr "Biestable D"
 
-#: translation.js:23
+#: translation.js:37
 msgid "## DFFs"
 msgstr ""
 
-#: translation.js:24
-msgid ""
-"# D Flip-Flop  \n"
-"\n"
-"It stores the input data that arrives at cycle n  \n"
-"Its output is shown in the cycle n+1"
+#: translation.js:38
+msgid "System DFF-rst"
 msgstr ""
-"# Biestable D \n"
-"\n"
-"Almacena el dato de la entrada que llega en el ciclo n  \n"
-"Saca su valor en el ciclo n+1"
 
-#: translation.js:27
+#: translation.js:42
 msgid "Alhambra-II"
 msgstr ""
 
-#: translation.js:28
+#: translation.js:43
+msgid "Alhabra-II"
+msgstr ""
+
+#: translation.js:44 translation.js:81
 msgid "01-manual-testing"
 msgstr ""
 
-#: translation.js:29
-msgid "Constant bit 0"
-msgstr ""
-
-#: translation.js:30
+#: translation.js:45
 msgid ""
 "Ledoscope. Capture the input signal during the first 4 cycles after circuit "
 "initialization"
 msgstr ""
 
-#: translation.js:31
-msgid "RS-FF-set. RS Flip-flop with priority set"
-msgstr ""
-
-#: translation.js:32
-msgid "2-to-1 Multplexer (1-bit channels)"
-msgstr ""
-
-#: translation.js:33
-msgid "OR2: Two bits input OR gate"
-msgstr ""
-
-#: translation.js:34
-msgid "Two bits input And gate"
-msgstr ""
-
-#: translation.js:35
-#, fuzzy
-msgid "NOT gate (Verilog implementation)"
-msgstr "Biestable D (Implementación en verilog)"
-
-#: translation.js:36
-msgid "Constant bit 1"
-msgstr ""
-
-#: translation.js:37
-msgid "SReg-right-x4: 4 bits Shift register (to the right)"
-msgstr ""
-
-#: translation.js:38
-msgid "Reg: 1-Bit register"
-msgstr ""
-
-#: translation.js:39
-msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
-msgstr ""
-
-#: translation.js:40
-msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
-msgstr ""
-
-#: translation.js:41
-msgid "2-bits Syscounter"
-msgstr ""
-
-#: translation.js:42
-msgid "Inc1-2bit: Increment a 2-bits number by one"
-msgstr ""
-
-#: translation.js:43
-msgid "AdderK-2bit: Adder of 2-bit operand and 2-bit constant"
-msgstr ""
-
-#: translation.js:44
-msgid "Generic: 2-bits generic constant (0,1,2,3)"
-msgstr ""
-
-#: translation.js:45
-msgid "Adder-2bits: Adder of two operands of 2 bits"
-msgstr ""
-
 #: translation.js:46
-msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
+msgid "Constant bit 0"
 msgstr ""
 
 #: translation.js:47
-msgid "Adder-1bit: Adder of two operands of 1 bit"
+msgid "RS-FF-set. RS Flip-flop with priority set"
 msgstr ""
 
 #: translation.js:48
-msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
+msgid "Constant bit 1"
 msgstr ""
 
 #: translation.js:49
-msgid "XOR gate: two bits input xor gate"
+msgid "SReg-right-x4: 4 bits Shift register (to the right)"
 msgstr ""
 
 #: translation.js:50
-msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
+msgid "Reg: 1-Bit register"
 msgstr ""
 
 #: translation.js:51
-msgid "DFF-02: Two D flip-flops in paralell"
+msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
 msgstr ""
 
 #: translation.js:52
+msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
+msgstr ""
+
+#: translation.js:53
+msgid "2-bits Syscounter"
+msgstr ""
+
+#: translation.js:54
+msgid "Inc1-2bit: Increment a 2-bits number by one"
+msgstr ""
+
+#: translation.js:55
+msgid "AdderK-2bit: Adder of 2-bit operand and 2-bit constant"
+msgstr ""
+
+#: translation.js:56
+msgid "Generic: 2-bits generic constant (0,1,2,3)"
+msgstr ""
+
+#: translation.js:57
+msgid "Adder-2bits: Adder of two operands of 2 bits"
+msgstr ""
+
+#: translation.js:58
+msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
+msgstr ""
+
+#: translation.js:59
+msgid "Adder-1bit: Adder of two operands of 1 bit"
+msgstr ""
+
+#: translation.js:60
+msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
+msgstr ""
+
+#: translation.js:61
+msgid "XOR gate: two bits input xor gate"
+msgstr ""
+
+#: translation.js:62
+msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
+msgstr ""
+
+#: translation.js:63
+msgid "DFF-02: Two D flip-flops in paralell"
+msgstr ""
+
+#: translation.js:64
+msgid ""
+"## Sys-DFF-rst: Manual testing\n"
+"\n"
+"An Initial pulse is generated. Its initial value is 1, and then it  \n"
+"change to 0 in the next cycle. The signal can be observed with the "
+"OSCILOSCOPE"
+msgstr ""
+
+#: translation.js:65
+msgid "Initial value: cycle 0"
+msgstr ""
+
+#: translation.js:66
+msgid "LEDOscope"
+msgstr ""
+
+#: translation.js:67
+#, fuzzy
+msgid "DFF: D-Flip-Flop"
+msgstr "Biestable D"
+
+#: translation.js:68
+msgid "DFF"
+msgstr "Biestable D"
+
+#: translation.js:69
+msgid "cycle 1"
+msgstr ""
+
+#: translation.js:70
+msgid "Rst on cycle 2"
+msgstr ""
+
+#: translation.js:71
+msgid "4-bits Shift register"
+msgstr ""
+
+#: translation.js:72
+msgid ""
+"The input channel is captured  \n"
+"on the register. One bit per  \n"
+"system clock"
+msgstr ""
+
+#: translation.js:73
+msgid "RS FlipFlop initialized to 1"
+msgstr ""
+
+#: translation.js:74
+msgid ""
+"while 1, the shift register  \n"
+"is capturing"
+msgstr ""
+
+#: translation.js:75
+#, fuzzy
+msgid "2-bits counter"
+msgstr ""
+"Máquina de contar\n"
+"de 4 bits"
+
+#: translation.js:76
+msgid ""
+"After 4 cycles the Flip-Flop is  \n"
+"reset and it stops capturing  \n"
+"bits"
+msgstr ""
+
+#: translation.js:77
+msgid ""
+"As the 2-bits system counter is counting  \n"
+"all the time, the done signal is only  \n"
+"generated when the counter reaches the maximum  \n"
+"value and the Ledoscope is on (busy)"
+msgstr ""
+
+#: translation.js:78
+msgid "Priority for the set"
+msgstr ""
+
+#: translation.js:79
+msgid "Mux 2-1"
+msgstr ""
+
+#: translation.js:80
+msgid ""
+"D Flip-flip\n"
+"(System)"
+msgstr ""
+
+#: translation.js:82
 msgid ""
 "## Sys-DFF: Manual testing\n"
 "\n"
@@ -205,87 +347,9 @@ msgid ""
 "OSCILOSCOPE"
 msgstr ""
 
-#: translation.js:53
-msgid "Initial value: cycle 0"
-msgstr ""
-
-#: translation.js:54
-msgid "LEDOscope"
-msgstr ""
-
-#: translation.js:55
-#, fuzzy
-msgid "DFF: D-Flip-Flop"
-msgstr "Biestable D"
-
-#: translation.js:56
+#: translation.js:83
 msgid "Values for cycles >= 1"
 msgstr ""
-
-#: translation.js:57
-msgid "4-bits Shift register"
-msgstr ""
-
-#: translation.js:58
-msgid ""
-"The input channel is captured  \n"
-"on the register. One bit per  \n"
-"system clock"
-msgstr ""
-
-#: translation.js:59
-msgid "RS FlipFlop initialized to 1"
-msgstr ""
-
-#: translation.js:60
-msgid ""
-"while 1, the shift register  \n"
-"is capturing"
-msgstr ""
-
-#: translation.js:61
-#, fuzzy
-msgid "2-bits counter"
-msgstr ""
-"Máquina de contar\n"
-"de 4 bits"
-
-#: translation.js:62
-msgid ""
-"After 4 cycles the Flip-Flop is  \n"
-"reset and it stops capturing  \n"
-"bits"
-msgstr ""
-
-#: translation.js:63
-msgid ""
-"As the 2-bits system counter is counting  \n"
-"all the time, the done signal is only  \n"
-"generated when the counter reaches the maximum  \n"
-"value and the Ledoscope is on (busy)"
-msgstr ""
-
-#: translation.js:64
-msgid "Priority for the set"
-msgstr ""
-
-#: translation.js:65
-#, fuzzy
-msgid "Input"
-msgstr "Dato de entrada"
-
-#: translation.js:66
-msgid "Mux 2-1"
-msgstr ""
-
-#: translation.js:67
-msgid ""
-"D Flip-flip\n"
-"(System)"
-msgstr ""
-
-#~ msgid "DFF"
-#~ msgstr "Biestable D"
 
 #, fuzzy
 #~| msgid "D Flip-flop"
