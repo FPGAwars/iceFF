@@ -53,6 +53,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **02-Sys-DFF-delay**
   * **Alhambra-II**
     * 02-Sys-DFF-delay
+* **03-Sys-DFF-rst**
+  * **Alhambra-II**
+    * 03-Sys-DFF-rst
 * **TESTs**
   * **DFFs**
     * **DFF**
