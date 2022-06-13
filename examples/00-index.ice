@@ -31,7 +31,7 @@
           "id": "7760644c-dbec-4cd9-b89e-aa33ebb88e1e",
           "type": "basic.info",
           "data": {
-            "info": "System D Flip-Flop",
+            "info": "Sys-DFF",
             "readonly": true
           },
           "position": {
@@ -87,7 +87,7 @@
           "id": "1953a4b4-143f-40fc-a839-f69cbf746e50",
           "type": "basic.info",
           "data": {
-            "info": "System DFF-rst",
+            "info": "Sys-DFF-rst",
             "readonly": true
           },
           "position": {
@@ -115,7 +115,7 @@
           "id": "6fdbe8fd-632e-4625-88ac-38ab51ddcd9b",
           "type": "basic.info",
           "data": {
-            "info": "D Flip-Flop",
+            "info": "DFF",
             "readonly": true
           },
           "position": {
@@ -143,7 +143,7 @@
           "id": "553a6e88-f6a9-451a-bc86-e6916153076d",
           "type": "basic.info",
           "data": {
-            "info": "D Flip-Flop rst",
+            "info": "DFF-rst",
             "readonly": true
           },
           "position": {
