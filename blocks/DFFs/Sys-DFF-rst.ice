@@ -13,19 +13,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "4caec7c8-0763-44fc-9b7b-110e0260b74b",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "yellow",
-            "name": "clk",
-            "oldBlockColor": "fuchsia"
-          },
-          "position": {
-            "x": 728,
-            "y": -176
-          }
-        },
-        {
           "id": "e5f6cfba-f822-4d53-a924-926407bc4e3f",
           "type": "basic.input",
           "data": {
@@ -33,8 +20,8 @@
             "clock": true
           },
           "position": {
-            "x": 168,
-            "y": -168
+            "x": 160,
+            "y": -224
           }
         },
         {
@@ -45,8 +32,21 @@
             "name": "clk"
           },
           "position": {
-            "x": 320,
-            "y": -168
+            "x": 312,
+            "y": -224
+          }
+        },
+        {
+          "id": "4caec7c8-0763-44fc-9b7b-110e0260b74b",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 728,
+            "y": -176
           }
         },
         {
@@ -217,8 +217,8 @@
             "readonly": true
           },
           "position": {
-            "x": 176,
-            "y": -208
+            "x": 168,
+            "y": -264
           },
           "size": {
             "width": 144,
@@ -281,7 +281,7 @@
           "id": "9f3bd6e8-6010-42ef-b3bb-54b37c1a4d00",
           "type": "basic.info",
           "data": {
-            "info": "Syste DFF",
+            "info": "Sys-DFF",
             "readonly": true
           },
           "position": {
@@ -307,6 +307,22 @@
           "size": {
             "width": 112,
             "height": 48
+          }
+        },
+        {
+          "id": "afb4a3fb-9fab-4ada-91f5-2ec9e5f1a6dc",
+          "type": "basic.info",
+          "data": {
+            "info": "Reset input",
+            "readonly": true
+          },
+          "position": {
+            "x": 176,
+            "y": -136
+          },
+          "size": {
+            "width": 104,
+            "height": 40
           }
         }
       ],
