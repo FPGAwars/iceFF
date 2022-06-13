@@ -50,6 +50,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **01-Sys-DFF-initial-pulse**
   * **Alhambra-II**
     * 01-Sys-DFF-initial-pulse
+* **02-Sys-DFF-delay**
+  * **Alhambra-II**
+    * 02-Sys-DFF-delay
 * **TESTs**
   * **DFFs**
     * **DFF**
