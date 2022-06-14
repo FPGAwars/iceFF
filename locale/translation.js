@@ -10,6 +10,8 @@
 gettext('DFFs');
 gettext('RS-FF');
 gettext('TFFs');
+gettext('DFF-rst-verilog');
+gettext('D Flip-Flop with load and reset. Implemented in verilog');
 gettext('DFF-rst');
 gettext('D Flip-Flop with load and reset');
 gettext('2-to-1 Multplexer (1-bit channels)');
