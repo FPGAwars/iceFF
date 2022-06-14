@@ -67,6 +67,7 @@ gettext('01-Sys-DFF-initial-pulse');
 gettext('02-Sys-DFF-delay');
 gettext('03-Sys-DFF-rst');
 gettext('04-DFF-button-LED');
+gettext('05-DFF-rst-buttons-LED');
 gettext('TESTs');
 gettext('00-index');
 gettext('# INDEX: IceFF Collection');
@@ -180,6 +181,9 @@ gettext('The output is 1 if the current value is 1 and the  \nprevious 0, or if 
 gettext('In any other case the output is 0');
 gettext('When k=0, it works like a wire  \n(The output is equal to the input)  \nWhen k=1, it act as a not gate\n(The output is the inverse of the input)');
 gettext('### Truth table for XOR\n\n| k | input | output | function |\n|---|-------|--------|----------|\n| 0 | 0     |  0     | wire     |\n| 0 | 1     |  1     | wire     |\n| 1 | 0     |  1     | Not      |\n| 1 | 1     |  0     | Not      |');
+gettext('Alhambra-II');
+gettext('05-DFF-rst-buttons-LED');
+gettext('## Example: DFF-rst: Manual testing\n\nWhen the button is pressed, the DFF captures a 1 and the LED is turned on  \nWhen the button 2 is pressed, the DFF is reset to 0 and the LED is turned off');
 gettext('DFFs');
 gettext('RS-FFs');
 gettext('TFFs');
