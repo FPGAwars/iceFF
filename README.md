@@ -57,6 +57,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **03-Sys-DFF-rst**
   * **Alhambra-II**
     * 03-Sys-DFF-rst
+* **04-DFF-button-LED**
+  * **Alhambra-II**
+    * 04-DFF-button-LED
 * **TESTs**
   * **DFFs**
     * **DFF**
