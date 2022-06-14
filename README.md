@@ -32,6 +32,7 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Blocks
 * **DFFs**
+  * DFF-rst-verilog
   * DFF-rst
   * DFF-verilog
   * DFF
