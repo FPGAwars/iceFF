@@ -103,16 +103,16 @@
           "id": "304702e1-1d61-4553-8266-250f3462a605",
           "type": "basic.info",
           "data": {
-            "info": "## Sys-DFF-rst: Manual testing\n\nAn Initial pulse is generated. Its initial value is 1, and then it  \nchange to 0 in the next cycle. The signal can be observed with the OSCILOSCOPE",
+            "info": "## Example: Sys-DFF-rst: Generating a two cycles pulse\n\nA two cycles pulse is generated using the rst input",
             "readonly": true
           },
           "position": {
-            "x": 296,
+            "x": 184,
             "y": 40
           },
           "size": {
-            "width": 696,
-            "height": 96
+            "width": 656,
+            "height": 72
           }
         },
         {
@@ -163,16 +163,16 @@
           "id": "23c71622-617b-4b79-b778-53a2a88c4f11",
           "type": "basic.info",
           "data": {
-            "info": "DFF: D-Flip-Flop",
+            "info": "Sys-DFF-rst",
             "readonly": true
           },
           "position": {
-            "x": 384,
-            "y": 472
+            "x": 400,
+            "y": 464
           },
           "size": {
-            "width": 232,
-            "height": 40
+            "width": 128,
+            "height": 32
           }
         },
         {
@@ -257,6 +257,38 @@
           "size": {
             "width": 96,
             "height": 96
+          }
+        },
+        {
+          "id": "ffbbab4d-9d92-413d-9636-9e0dda842f66",
+          "type": "basic.info",
+          "data": {
+            "info": "| Signal | Cycle 0 | Cycle 1 | Cycle 2 | Cycle 3 |\n|--------|---------|---------|---------|---------|\n| Pulse  |   0     |    1    |    1    |    0    |\n| rst    |   0     |    0    |    1    |    1    |",
+            "readonly": true
+          },
+          "position": {
+            "x": 576,
+            "y": 136
+          },
+          "size": {
+            "width": 400,
+            "height": 88
+          }
+        },
+        {
+          "id": "94630444-ccd7-4972-a59e-eee1b308954c",
+          "type": "basic.info",
+          "data": {
+            "info": "**Pulse**",
+            "readonly": true
+          },
+          "position": {
+            "x": 504,
+            "y": 368
+          },
+          "size": {
+            "width": 104,
+            "height": 40
           }
         }
       ],
