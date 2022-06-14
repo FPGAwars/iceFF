@@ -144,7 +144,7 @@ gettext('Bus16-Join-half: Join the two same halves into an 16-bits Bus');
 gettext('Edges detector. It generates a 1-period pulse (tic) when either a rising edge or a falling edge is detected on the input');
 gettext('Sync 1-bit input with the system clock domain');
 gettext('Select positive or negative logic for the input (0=positive, 1=negative)');
-gettext('## Example: DFF: Manual testing\n');
+gettext('## Example: DFF: Manual testing\n\nWhen the button is pressed, the DFF captures a 1 and the LED is turned on');
 gettext('Button state signal');
 gettext('Tic: button pressed');
 gettext('Rising edge detector');
