@@ -35,7 +35,7 @@ gettext('# D Flip-Flop  \n\nIt stores the input data that arrives at cycle n  \n
 gettext('DFF-verilog');
 gettext('DFF. D Flip-flop. Verilog implementation');
 gettext('DFF');
-gettext('Reg: 1-Bit register');
+gettext('DFF: D flip-flop with load input');
 gettext('2-to-1 Multplexer (1-bit channels). Fippled version');
 gettext('D Flip-flip\n(System)');
 gettext('Sys-DFF-rst-verilog');
@@ -62,6 +62,7 @@ gettext('TFF-sys');
 gettext('System TFF: It toogles its output on every system cycle');
 gettext('TFF');
 gettext('System TFF with toggle input: It toogles on every system cycle if the input is active');
+gettext('Reg: 1-Bit register');
 gettext('01-Sys-DFF-initial-pulse');
 gettext('02-Sys-DFF-delay');
 gettext('03-Sys-DFF-rst');
