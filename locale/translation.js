@@ -32,6 +32,8 @@ gettext('Mux-2-1');
 gettext('Parameter: Initial value');
 gettext('Input data');
 gettext('# D Flip-Flop  \n\nIt stores the input data that arrives at cycle n  \nIts output is shown in the cycle n+1');
+gettext('DFF-verilog');
+gettext('DFF. D Flip-flop. Verilog implementation');
 gettext('DFF');
 gettext('Reg: 1-Bit register');
 gettext('2-to-1 Multplexer (1-bit channels). Fippled version');
