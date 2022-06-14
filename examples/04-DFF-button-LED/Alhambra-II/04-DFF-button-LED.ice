@@ -54,16 +54,16 @@
           "id": "304702e1-1d61-4553-8266-250f3462a605",
           "type": "basic.info",
           "data": {
-            "info": "## Example: DFF: Manual testing\n",
+            "info": "## Example: DFF: Manual testing\n\nWhen the button is pressed, the DFF captures a 1 and the LED is turned on",
             "readonly": true
           },
           "position": {
-            "x": 240,
-            "y": 96
+            "x": 232,
+            "y": 160
           },
           "size": {
             "width": 688,
-            "height": 48
+            "height": 80
           }
         },
         {
