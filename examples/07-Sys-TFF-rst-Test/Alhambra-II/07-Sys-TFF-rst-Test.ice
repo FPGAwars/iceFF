@@ -12,25 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "8dacf7cb-befc-41b1-b732-3f9ba40fed0a",
-          "type": "basic.output",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED7",
-                "value": "37"
-              }
-            ],
-            "virtual": false
-          },
-          "position": {
-            "x": 1152,
-            "y": -48
-          }
-        },
-        {
           "id": "b46bc573-7654-4dfa-8d34-c7aa25d56a9a",
           "type": "basic.output",
           "data": {
@@ -200,16 +181,6 @@
         }
       ],
       "wires": [
-        {
-          "source": {
-            "block": "d95d46b8-6900-42e4-9686-c75632cf01b6",
-            "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
-          },
-          "target": {
-            "block": "8dacf7cb-befc-41b1-b732-3f9ba40fed0a",
-            "port": "in"
-          }
-        },
         {
           "source": {
             "block": "5a40f736-3a27-447a-a81d-2a4835aeaa07",
