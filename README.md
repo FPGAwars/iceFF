@@ -43,9 +43,9 @@ For installing and using this colection in Icestudio follow these steps:
   * RS-FF-reset
   * RS-FF-set
 * **TFFs**
+  * Sys-TFF
   * TFF-rst
   * TFF-sys-rst
-  * TFF-sys
   * TFF
 
 ## Examples
@@ -87,10 +87,10 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-Manual-testing
   * **TFFs**
-    * **TFF**
-    * **TFF-Sys**
+    * **Sys-TFF**
       * **Alhambra-II**
         * 01-manual-testing
+    * **TFF**
     * **TFF-rst**
       * **Alhambra-II**
         * 01-manual-testing
