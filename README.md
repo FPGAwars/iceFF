@@ -43,6 +43,7 @@ For installing and using this colection in Icestudio follow these steps:
   * RS-FF-reset
   * RS-FF-set
 * **TFFs**
+  * Sys-TFF-rst
   * Sys-TFF-verilog
   * Sys-TFF
   * TFF-rst
@@ -69,6 +70,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **06-Sys-TFF-Test**
   * **Alhambra-II**
     * 06-Sys-TFF-Test
+* **07-Sys-TFF-rst-Test**
+  * **Alhambra-II**
+    * 07-Sys-TFF-rst-Test
 * **TESTs**
   * **DFFs**
     * **DFF**
