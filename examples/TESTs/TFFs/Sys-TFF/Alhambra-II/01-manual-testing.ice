@@ -113,7 +113,7 @@
           "id": "738af5f6-9513-4dbd-a66e-c67d6727ddb4",
           "type": "basic.info",
           "data": {
-            "info": "# TFF-sys: Manual testing",
+            "info": "# Sys-TFF: Manual testing",
             "readonly": true
           },
           "position": {
