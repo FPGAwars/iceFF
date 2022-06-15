@@ -47,30 +47,10 @@
           }
         },
         {
-          "id": "df942fcd-4888-483c-9cc4-ab296d88acfc",
-          "type": "basic.inputLabel",
-          "data": {
-            "name": "rst",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
-          },
-          "position": {
-            "x": 1216,
-            "y": 120
-          }
-        },
-        {
           "id": "a3be645d-3898-41eb-9c68-d6a74c18a184",
           "type": "basic.outputLabel",
           "data": {
-            "name": "rst",
+            "name": "q",
             "blockColor": "fuchsia",
             "virtual": true,
             "pins": [
@@ -82,8 +62,28 @@
             ]
           },
           "position": {
-            "x": 696,
+            "x": 624,
             "y": 144
+          }
+        },
+        {
+          "id": "df942fcd-4888-483c-9cc4-ab296d88acfc",
+          "type": "basic.inputLabel",
+          "data": {
+            "name": "q",
+            "blockColor": "fuchsia",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": 1168,
+            "y": 160
           }
         },
         {
@@ -103,16 +103,16 @@
           "id": "738af5f6-9513-4dbd-a66e-c67d6727ddb4",
           "type": "basic.info",
           "data": {
-            "info": "# Example: TFF-sys-rst: Watching with the LEDOscope",
+            "info": "# Example: TFF-sys-rst: Watching with the LEDOscope  \n\nOn cycle 2 the TFF-rst is reset to 0, so that its ouput on cycle 3 is also 0",
             "readonly": true
           },
           "position": {
-            "x": 736,
-            "y": -168
+            "x": 664,
+            "y": -280
           },
           "size": {
-            "width": 784,
-            "height": 40
+            "width": 808,
+            "height": 88
           }
         },
         {
@@ -159,7 +159,7 @@
           "id": "0010e51d-8d0d-4edd-ad3c-74433e8daae3",
           "type": "883a64fddf073765eeb23e5043b5cd06ede21dea",
           "position": {
-            "x": 848,
+            "x": 776,
             "y": 48
           },
           "size": {
@@ -171,12 +171,172 @@
           "id": "5f9bee38-42eb-4ec5-98e5-49665b95f0de",
           "type": "febcfed8636b8ee9a98750b96ed9e53a165dd4a8",
           "position": {
-            "x": 664,
+            "x": 592,
             "y": 64
           },
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "ce404bde-c565-47b5-9ef3-e588f90c031b",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 0",
+            "readonly": true
+          },
+          "position": {
+            "x": 1680,
+            "y": 104
+          },
+          "size": {
+            "width": 120,
+            "height": 32
+          }
+        },
+        {
+          "id": "cfb625c8-6683-4aba-b535-087fecbd0f32",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 1",
+            "readonly": true
+          },
+          "position": {
+            "x": 1680,
+            "y": 72
+          },
+          "size": {
+            "width": 120,
+            "height": 32
+          }
+        },
+        {
+          "id": "53595988-fed7-4c8e-b974-918414585aba",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 2",
+            "readonly": true
+          },
+          "position": {
+            "x": 1680,
+            "y": 40
+          },
+          "size": {
+            "width": 120,
+            "height": 32
+          }
+        },
+        {
+          "id": "43030f94-0917-46b2-bf17-d2578b95c94c",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 3",
+            "readonly": true
+          },
+          "position": {
+            "x": 1680,
+            "y": 8
+          },
+          "size": {
+            "width": 120,
+            "height": 32
+          }
+        },
+        {
+          "id": "7c2242ea-fb5e-4943-ab59-fb002ebff78a",
+          "type": "basic.info",
+          "data": {
+            "info": "| Signal | Cycle 0 | Cycle 1 | Cycle 2 | Cycle 3 |\n|-----|---------|---------|---------|---------|\n| TFF | 0       |   1     |   0     |   0     |\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 1312,
+            "y": -144
+          },
+          "size": {
+            "width": 424,
+            "height": 88
+          }
+        },
+        {
+          "id": "1daa390e-eb75-4009-b492-ce2b64bf9f17",
+          "type": "basic.info",
+          "data": {
+            "info": "TFF output",
+            "readonly": true
+          },
+          "position": {
+            "x": 1176,
+            "y": 136
+          },
+          "size": {
+            "width": 128,
+            "height": 40
+          }
+        },
+        {
+          "id": "f5401011-3842-4852-b581-e87f31f09e68",
+          "type": "basic.info",
+          "data": {
+            "info": "Reset",
+            "readonly": true
+          },
+          "position": {
+            "x": 896,
+            "y": 56
+          },
+          "size": {
+            "width": 72,
+            "height": 32
+          }
+        },
+        {
+          "id": "4cde3a99-6253-4f71-a205-f69e7bf9c7f4",
+          "type": "basic.info",
+          "data": {
+            "info": "**Sys-TFF-rst**",
+            "readonly": true
+          },
+          "position": {
+            "x": 1024,
+            "y": 120
+          },
+          "size": {
+            "width": 144,
+            "height": 32
+          }
+        },
+        {
+          "id": "478e2ec5-b413-4e24-b975-453e497f271a",
+          "type": "basic.info",
+          "data": {
+            "info": "**DFF**",
+            "readonly": true
+          },
+          "position": {
+            "x": 808,
+            "y": 160
+          },
+          "size": {
+            "width": 112,
+            "height": 32
+          }
+        },
+        {
+          "id": "245ec51b-e1be-4091-8992-0dab7e216bc1",
+          "type": "basic.info",
+          "data": {
+            "info": "This Flip-Flop is 1  \non cycle 2",
+            "readonly": true
+          },
+          "position": {
+            "x": 768,
+            "y": -24
+          },
+          "size": {
+            "width": 192,
+            "height": 56
           }
         }
       ],
