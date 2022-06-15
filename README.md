@@ -43,6 +43,7 @@ For installing and using this colection in Icestudio follow these steps:
   * RS-FF-reset
   * RS-FF-set
 * **TFFs**
+  * Sys-TFF-verilog
   * Sys-TFF
   * TFF-rst
   * TFF-sys-rst
