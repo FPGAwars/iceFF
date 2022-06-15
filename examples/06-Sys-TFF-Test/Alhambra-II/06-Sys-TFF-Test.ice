@@ -228,6 +228,70 @@
             "width": 224,
             "height": 56
           }
+        },
+        {
+          "id": "55ec7be1-a68d-49cd-979a-1649fd4d56c2",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 0",
+            "readonly": true
+          },
+          "position": {
+            "x": 1696,
+            "y": 112
+          },
+          "size": {
+            "width": 112,
+            "height": 40
+          }
+        },
+        {
+          "id": "fc6d67c2-1aa2-4b3b-8b11-197147f64d05",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 1",
+            "readonly": true
+          },
+          "position": {
+            "x": 1696,
+            "y": 72
+          },
+          "size": {
+            "width": 112,
+            "height": 40
+          }
+        },
+        {
+          "id": "cb951778-5d76-4222-b4d2-82e69830deae",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 2",
+            "readonly": true
+          },
+          "position": {
+            "x": 1696,
+            "y": 32
+          },
+          "size": {
+            "width": 112,
+            "height": 40
+          }
+        },
+        {
+          "id": "4d46444a-5604-4c59-ac08-c180d820276e",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 3",
+            "readonly": true
+          },
+          "position": {
+            "x": 1696,
+            "y": 0
+          },
+          "size": {
+            "width": 112,
+            "height": 40
+          }
         }
       ],
       "wires": [
