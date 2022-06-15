@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "package": {
-    "name": "TFF-sys",
+    "name": "Sys-TFF",
     "version": "0.2",
     "description": "System TFF: It toogles its output on every system cycle",
     "author": "Juan González-Gómez (Obijuan)",
