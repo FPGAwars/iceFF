@@ -56,6 +56,8 @@ gettext('Priority for the reset');
 gettext('RS-FF-set');
 gettext('RS-FF-set. RS Flip-flop with priority set');
 gettext('Priority for the set');
+gettext('Sys-TFF-rst-verilog');
+gettext('System TFF with reset: It toogles its output on every system cycle. Verilog implementation');
 gettext('Sys-TFF-rst');
 gettext('System TFF with reset: It toogles its output on every system cycle');
 gettext('Sys-TFF-verilog');
