@@ -47,7 +47,6 @@ For installing and using this colection in Icestudio follow these steps:
   * Sys-TFF-verilog
   * Sys-TFF
   * TFF-rst
-  * TFF-sys-rst
   * TFF
 
 ## Examples
@@ -96,13 +95,13 @@ For installing and using this colection in Icestudio follow these steps:
         * 01-Manual-testing
   * **TFFs**
     * **Sys-TFF**
+    * **Sys-TFF-rst**
+      * **Alhambra-II**
+        * 01-manual-testing
       * **Alhambra-II**
         * 01-manual-testing
     * **TFF**
     * **TFF-rst**
-      * **Alhambra-II**
-        * 01-manual-testing
-    * **TFF-sys-rst**
       * **Alhambra-II**
         * 01-manual-testing
       * **Alhambra-II**
