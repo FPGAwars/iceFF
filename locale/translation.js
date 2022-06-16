@@ -66,6 +66,8 @@ gettext('Sys-TFF');
 gettext('System TFF: It toogles its output on every system cycle');
 gettext('TFF-rst');
 gettext('System TFF with toggle input and reset: It toogles on every system cycle if the input is active');
+gettext('TFF-verilog');
+gettext('System TFF with toggle input: It toogles on every system cycle if the input is active. Verilog implementation');
 gettext('TFF');
 gettext('System TFF with toggle input: It toogles on every system cycle if the input is active');
 gettext('Reg: 1-Bit register');

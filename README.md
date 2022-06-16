@@ -48,6 +48,7 @@ For installing and using this colection in Icestudio follow these steps:
   * Sys-TFF-verilog
   * Sys-TFF
   * TFF-rst
+  * TFF-verilog
   * TFF
 
 ## Examples
