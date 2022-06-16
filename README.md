@@ -85,6 +85,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **10-RS-FF-set-priority-test**
   * **Alhambra-II**
     * 10-RS-FF-set-priority-Manual-testing
+* **11-RS-FF-reset-priority-test**
+  * **Alhambra-II**
+    * 11-RS-FF-reset-priority-Manual-testing
 * **TESTs**
   * **DFFs**
     * **DFF**
