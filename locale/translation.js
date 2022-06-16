@@ -53,6 +53,8 @@ gettext('RS-FF-reset. RS Flip-flop with priority reset');
 gettext('Constant bit 1');
 gettext('Constant bit 0');
 gettext('Priority for the reset');
+gettext('RS-FF-set-verilog');
+gettext('RS-FF-set-verilog. RS Flip-flop with priority set. Implementation in verilog');
 gettext('RS-FF-set');
 gettext('RS-FF-set. RS Flip-flop with priority set');
 gettext('Priority on set');
