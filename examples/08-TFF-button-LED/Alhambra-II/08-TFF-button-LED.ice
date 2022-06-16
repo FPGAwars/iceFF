@@ -46,7 +46,7 @@
             "clock": false
           },
           "position": {
-            "x": 664,
+            "x": 632,
             "y": 64
           }
         },
