@@ -273,7 +273,7 @@
           "id": "864d85b3-242c-408a-9e20-fb4931e68f70",
           "type": "basic.info",
           "data": {
-            "info": "Priority for the set",
+            "info": "Priority on set",
             "readonly": true
           },
           "position": {
