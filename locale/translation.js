@@ -64,6 +64,8 @@ gettext('Sys-TFF-verilog');
 gettext('System TFF: It toogles its output on every system cycle. Verilog implementation');
 gettext('Sys-TFF');
 gettext('System TFF: It toogles its output on every system cycle');
+gettext('TFF-rst-verilog');
+gettext('TFF with toggle input and reset: It toogles on every system cycle if the input is active. Verilog implementation');
 gettext('TFF-rst');
 gettext('System TFF with toggle input and reset: It toogles on every system cycle if the input is active');
 gettext('TFF-verilog');
