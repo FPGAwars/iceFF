@@ -40,6 +40,7 @@ For installing and using this colection in Icestudio follow these steps:
   * Sys-DFF-rst
   * Sys-DFF
 * **RS-FF**
+  * RS-FF-reset-verilog
   * RS-FF-reset
   * RS-FF-set-verilog
   * RS-FF-set
