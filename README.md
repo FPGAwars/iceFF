@@ -81,6 +81,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **09-TFF-rst-buttons-LED**
   * **Alhambra-II**
     * 09-TFF-rst-buttons-LED
+* **10-RS-FF-set-priority-test**
+  * **Alhambra-II**
+    * 10-RS-FF-set-priority-Manual-testing
 * **TESTs**
   * **DFFs**
     * **DFF**
