@@ -65,7 +65,7 @@ msgstr "constante genérica de 1-bit (0/1)"
 
 #: translation.js:21 translation.js:38 translation.js:66
 msgid "Sys-DFF-rst"
-msgstr ""
+msgstr "Sys-DFF-rst"
 
 #: translation.js:22
 msgid "Mux 2-1"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: translation.js:29
 msgid "Syste DFF"
-msgstr ""
+msgstr "DFF del sistema"
 
 #: translation.js:30
 msgid "Mux-2-1"
@@ -153,11 +153,12 @@ msgstr ""
 
 #: translation.js:39 translation.js:65
 msgid "Sys-DFF"
-msgstr ""
+msgstr "Sys-DFF"
 
 #: translation.js:40
 msgid "System - D Flip-flop. Capture data every system clock cycle"
 msgstr ""
+"Biestable D del sistema. Capturar un dato cada ciclo de reloj del sistema"
 
 #: translation.js:41
 msgid ""
@@ -180,6 +181,8 @@ msgid ""
 "System TFF with toggle input and reset: It toogles on every system cycle if "
 "the input is active"
 msgstr ""
+"Biestable T del sistema con entrada de cambio y reset: Bascula en cada ciclo "
+"del sistema si la entrada está activa"
 
 #: translation.js:44 translation.js:173
 msgid "TFF-sys-rst"
@@ -188,6 +191,8 @@ msgstr ""
 #: translation.js:45
 msgid "System TFF with reset: It toogles its output on every system cycle"
 msgstr ""
+"Biestable T del sistema con reset: Bascula su salida en cada ciclo de reloj "
+"del sistema"
 
 #: translation.js:46
 msgid "TFF-sys"
@@ -195,18 +200,19 @@ msgstr ""
 
 #: translation.js:47
 msgid "System TFF: It toogles its output on every system cycle"
-msgstr ""
+msgstr "TFF del sistema: Bascula su salida en cada ciclo del sistema"
 
 #: translation.js:48 translation.js:170
-#, fuzzy
 msgid "TFF"
-msgstr "Biestable D"
+msgstr "TFF"
 
 #: translation.js:49
 msgid ""
 "System TFF with toggle input: It toogles on every system cycle if the input "
 "is active"
 msgstr ""
+"Biestable T del sistema con entrada de cambio: Bascula en cada ciclo del "
+"sistema si la entrada está activa"
 
 #: translation.js:50
 msgid "TESTs"
@@ -221,9 +227,8 @@ msgid "# INDEX: IceFF Collection"
 msgstr "# INDICE: Colección iceFF"
 
 #: translation.js:53
-#, fuzzy
 msgid "System D Flip-Flop"
-msgstr "Biestable D"
+msgstr "Biestable D del sistema"
 
 #: translation.js:54
 msgid "## DFFs"
@@ -231,7 +236,7 @@ msgstr "## DFFs"
 
 #: translation.js:55
 msgid "System DFF-rst"
-msgstr ""
+msgstr "DFF-rst del sistema"
 
 #: translation.js:56
 msgid "D Flip-Flop"
@@ -246,14 +251,12 @@ msgid "## TFFs"
 msgstr "## TFFs"
 
 #: translation.js:59
-#, fuzzy
 msgid "System TFF"
-msgstr "Biestable D"
+msgstr "TFF del sistema"
 
 #: translation.js:60
-#, fuzzy
 msgid "System TFF-rst"
-msgstr "Biestable D"
+msgstr "TFF-rst del sistema"
 
 #: translation.js:67 translation.js:68 translation.js:138 translation.js:174
 #: translation.js:175 translation.js:178 translation.js:181
@@ -405,7 +408,7 @@ msgstr ""
 
 #: translation.js:101
 msgid "Sync 1-bit input with the system clock domain"
-msgstr ""
+msgstr "Sincronizar una entrada de 1-bit con el dominio del reloj del sistema"
 
 #: translation.js:102
 msgid ""
@@ -508,7 +511,7 @@ msgstr ""
 
 #: translation.js:116
 msgid "Synchronization stage"
-msgstr ""
+msgstr "Estapa de sincronización"
 
 #: translation.js:117
 msgid ""
