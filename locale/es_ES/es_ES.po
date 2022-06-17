@@ -60,7 +60,7 @@ msgstr "Biestable D (Implementación en verilog)"
 
 #: translation.js:20
 msgid "1-bit generic constant (0/1)"
-msgstr ""
+msgstr "constante genérica de 1-bit (0/1)"
 
 #: translation.js:21 translation.js:38 translation.js:66
 msgid "Sys-DFF-rst"
@@ -154,17 +154,16 @@ msgid "System - D Flip-flop. Capture data every system clock cycle"
 msgstr ""
 
 #: translation.js:41
-#, fuzzy
 msgid ""
 "# D Flip-Flop  (system)\n"
 "\n"
 "It stores the input data that arrives at cycle n  \n"
 "Its output is shown in the cycle n+1"
 msgstr ""
-"# Biestable D \n"
+"# Biestable D (Sistema)  \n"
 "\n"
-"Almacena el dato de la entrada que llega en el ciclo n  \n"
-"Saca su valor en el ciclo n+1"
+"Almacena el dato de entrada que llega en el ciclo n  \n"
+"Su salida se muestra en el ciclo n+1"
 
 #: translation.js:42 translation.js:172
 msgid "TFF-rst"
@@ -209,11 +208,11 @@ msgstr "Pruebas"
 
 #: translation.js:51
 msgid "00-index"
-msgstr ""
+msgstr "00-index"
 
 #: translation.js:52
 msgid "# INDEX: IceFF Collection"
-msgstr ""
+msgstr "# INDICE: Colección iceFF"
 
 #: translation.js:53
 #, fuzzy
@@ -222,7 +221,7 @@ msgstr "Biestable D"
 
 #: translation.js:54
 msgid "## DFFs"
-msgstr ""
+msgstr "## DFFs"
 
 #: translation.js:55
 msgid "System DFF-rst"
@@ -240,7 +239,7 @@ msgstr "Biestable D"
 
 #: translation.js:58
 msgid "## TFFs"
-msgstr ""
+msgstr "## TFFs"
 
 #: translation.js:59
 #, fuzzy
@@ -281,14 +280,11 @@ msgstr ""
 
 #: translation.js:75
 msgid "1bit register (implemented in verilog)"
-msgstr ""
+msgstr "Registro de 1 bit (Implementado en verilog)"
 
 #: translation.js:76
-#, fuzzy
 msgid "16-bits Syscounter with reset"
-msgstr ""
-"Máquina de contar\n"
-"de 4 bits"
+msgstr "Contador del sistema de 16-bits con reset"
 
 #: translation.js:77
 msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
@@ -400,7 +396,7 @@ msgstr ""
 
 #: translation.js:103
 msgid "## DFF-rst: Manual testing\n"
-msgstr ""
+msgstr "## DFF-rst: Prueba manual\n"
 
 #: translation.js:104
 msgid "Button state signal"
@@ -429,6 +425,10 @@ msgid ""
 "It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
 "input signal"
 msgstr ""
+"## Detector de flanco de subida\n"
+"\n"
+"Se genera un pulso de 1-ciclo (tic) cuando se detecta un flanco de subida  \n"
+"en la señal de  entrada"
 
 #: translation.js:110
 #, fuzzy
@@ -464,6 +464,10 @@ msgid ""
 "There is no delay between the arrival of a rising edge  \n"
 "and its detection"
 msgstr ""
+"**Retardo**: 0 cyclos de reloj \n"
+"\n"
+"No hay retardo entre la llegada del flanco de subida  \n"
+"y su detección"
 
 #: translation.js:115
 msgid ""
@@ -495,6 +499,10 @@ msgid ""
 "0: No pull-up  \n"
 "1: Pull-up activated"
 msgstr ""
+"### Parámetro pull-up:\n"
+"\n"
+"0: Sin pull-up  \n"
+"1: Pull-up activado"
 
 #: translation.js:120
 msgid ""
@@ -534,6 +542,12 @@ msgid ""
 "IF more time is needed for debouncing,  \n"
 "use a counter with more bits (17, 18...)"
 msgstr ""
+"### Cálculo del tiempo\n"
+"\n"
+"Para CLK=12MHZ, un contador de 16 bits alcanza  \n"
+"su máximo cada 2**16 * 1/F = 5.5ms aprox  \n"
+"Si se necesita más tiempo para el antirrebotes,  \n"
+"usar un contador con más bits (17, 18...)"
 
 #: translation.js:126
 msgid ""
@@ -544,6 +558,12 @@ msgid ""
 "aprox. When a value is stable it is  \n"
 "captured on the output flip-flop"
 msgstr ""
+"## Antirrebotes  \n"
+"\n"
+"Un valor se considera estable cuando  \n"
+"no hay ningún cambio durante 5.5ms  \n"
+"aprox. Cuando un valor es estable  \n"
+"se captura en el biestable de salida"
 
 #: translation.js:127
 #, fuzzy
@@ -573,6 +593,11 @@ msgid ""
 "detected on the  \n"
 "input signal"
 msgstr ""
+"## Detector de flancos\n"
+"\n"
+"Se genra un pulso de un ciclo (tic) cuando un flanco (de subida o bajada) se "
+"detecta  \n"
+"en la señal de entrada"
 
 #: translation.js:132
 msgid ""
@@ -604,15 +629,23 @@ msgid ""
 "| 1 | 0     |  1     | Not      |\n"
 "| 1 | 1     |  0     | Not      |"
 msgstr ""
+"### Tabla de verdad para XOR\n"
+"\n"
+"|k|Entrada|Salida|Función|\n"
+"|--|--------------|----------|-------------|\n"
+"|0| 0               |  0         | cable    |\n"
+"|0| 1               |  1         | cable   |\n"
+"|1| 0               |  1         | Not      |\n"
+"|1| 1               |  0         | Not     |"
 
 #: translation.js:136 translation.js:140 translation.js:167 translation.js:176
 #: translation.js:179 translation.js:182 translation.js:184
 msgid "01-manual-testing"
-msgstr ""
+msgstr "01-manual-testing"
 
 #: translation.js:137
 msgid "## DFF: Manual testing\n"
-msgstr ""
+msgstr "## DFF: Prueba manual\n"
 
 #: translation.js:139
 msgid "Alhabra-II"
@@ -676,6 +709,11 @@ msgid ""
 "change to 0 in the next cycle. The signal can be observed with the "
 "OSCILOSCOPE"
 msgstr ""
+"## Sys-DFF-rst: Prueba manual\n"
+"\n"
+"Se genera un pulso inicial. Su valor inicial es 1, y después  \n"
+"cambia a 0 en el siguiente ciclo. La señal se puede observar con el "
+"LEDOscopio"
 
 #: translation.js:154
 msgid "Initial value: cycle 0"
@@ -720,11 +758,8 @@ msgid ""
 msgstr ""
 
 #: translation.js:163
-#, fuzzy
 msgid "2-bits counter"
-msgstr ""
-"Máquina de contar\n"
-"de 4 bits"
+msgstr "contador de 2-bits"
 
 #: translation.js:164
 msgid ""
@@ -753,6 +788,11 @@ msgid ""
 "change to 0 in the next cycle. The signal can be observed with the "
 "OSCILOSCOPE"
 msgstr ""
+"## Sys-DFF: Prueba manual\n"
+"\n"
+"Se genera un pulso inicial. Su valor inicial es 1, y despues  \n"
+"cambia a 0 en el siguiente ciclo. La señal se puede observar con el "
+"LEDOSCOPIO"
 
 #: translation.js:169
 msgid "Values for cycles >= 1"
@@ -764,19 +804,19 @@ msgstr ""
 
 #: translation.js:177
 msgid "# TFF-sys: Manual testing"
-msgstr ""
+msgstr "# TFF-sys:  Prueba manual"
 
 #: translation.js:180
 msgid "# TFF-rst: Manual testing"
-msgstr ""
+msgstr "# TFF-rst: Prueba manual"
 
 #: translation.js:183
 msgid "# TFF-sys-rst: Manual testing"
-msgstr ""
+msgstr "# TFF-sys-rst: Prueba manual"
 
 #: translation.js:185
 msgid "# TFF: Manual testing"
-msgstr ""
+msgstr "# TFF: Prueba manual"
 
 #~ msgid "FFs"
 #~ msgstr "Biestables"
