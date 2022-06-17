@@ -17,7 +17,7 @@ msgstr ""
 
 #: translation.js:10 translation.js:61
 msgid "DFFs"
-msgstr ""
+msgstr "DFFs"
 
 #: translation.js:11 translation.js:62
 msgid "TFFs"
@@ -37,16 +37,15 @@ msgstr "Multiplexor de 2 a 1 (Canales de 1 bit)"
 
 #: translation.js:15
 msgid "OR2: Two bits input OR gate"
-msgstr ""
+msgstr "OR2: Puerta OR de dos bits de entrada"
 
 #: translation.js:16
 msgid "Two bits input And gate"
 msgstr ""
 
 #: translation.js:17
-#, fuzzy
 msgid "NOT gate (Verilog implementation)"
-msgstr "Biestable D (Implementación en verilog)"
+msgstr "Puerta NOT (Implementación en verilog)"
 
 #: translation.js:18
 msgid ""
@@ -70,12 +69,11 @@ msgstr ""
 
 #: translation.js:22
 msgid "Mux 2-1"
-msgstr ""
+msgstr "Mux-2-1"
 
 #: translation.js:23
-#, fuzzy
 msgid "Input"
-msgstr "Dato de entrada"
+msgstr "Entrada"
 
 #: translation.js:24
 msgid "Output"
@@ -86,6 +84,8 @@ msgid ""
 "Reset input: Active high  \n"
 "When rst = 1, the DFF is set to its initial value"
 msgstr ""
+"Entrada de reset: Activa a nivel alto  \n"
+"Cuando rst=1, el biestable 0 se carga con el valor inicial"
 
 #: translation.js:26
 msgid "Data input"
@@ -100,6 +100,8 @@ msgid ""
 "Initial default  \n"
 "value: 0"
 msgstr ""
+"Valor inicial  \n"
+"por defecto: 0"
 
 #: translation.js:29
 msgid "Syste DFF"
@@ -107,7 +109,7 @@ msgstr ""
 
 #: translation.js:30
 msgid "Mux-2-1"
-msgstr ""
+msgstr "Mux-2-1"
 
 #: translation.js:31
 msgid "Parameter: Initial value"
@@ -135,7 +137,7 @@ msgstr "Biestable D"
 
 #: translation.js:35
 msgid "Reg: 1-Bit register"
-msgstr ""
+msgstr "Reg: Registro de 1-bit"
 
 #: translation.js:36
 msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
@@ -232,7 +234,6 @@ msgid "System DFF-rst"
 msgstr ""
 
 #: translation.js:56
-#, fuzzy
 msgid "D Flip-Flop"
 msgstr "Biestable D"
 
@@ -268,6 +269,8 @@ msgid ""
 "Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
 "is detected on the input"
 msgstr ""
+"Detector de flanco de subida. Se genera un pulso de 1-ciclo (tic) cuando se "
+"detecta un flanco de subida en la entrada"
 
 #: translation.js:72
 msgid "Configurable button (pull-up on/off. Not on/off)"
@@ -275,11 +278,11 @@ msgstr "Botón configurable (pull-up on/off. Not on/off)"
 
 #: translation.js:73
 msgid "FPGA internal pull-up configuration on the input port"
-msgstr ""
+msgstr "Configuración  del pull-up interno de la FPGA en el puerto de entrada"
 
 #: translation.js:74
 msgid "Remove the rebound on a mechanical switch"
-msgstr ""
+msgstr "Eliminar el efecto rebote de un conmutador mecánico"
 
 #: translation.js:75
 msgid "1bit register (implemented in verilog)"
@@ -324,7 +327,7 @@ msgstr "Bus16-Join-quarter: Agrupar los cuatro buses iguales en uno de 16-bits"
 
 #: translation.js:84
 msgid "Inc1-16bit: Increment a 16-bits number by one"
-msgstr ""
+msgstr "Inc1-16bit: Incrementar un número de 16bits en uno"
 
 #: translation.js:85
 msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
@@ -333,7 +336,7 @@ msgstr ""
 
 #: translation.js:86
 msgid "Generic: 16-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 16-bits"
 
 #: translation.js:87
 msgid "Adder-16bits: Adder of two operands of 16 bits"
@@ -397,6 +400,8 @@ msgid ""
 "Edges detector. It generates a 1-period pulse (tic) when either a rising "
 "edge or a falling edge is detected on the input"
 msgstr ""
+"Detector de flancos. Se genera un pulso de 1-ciclo (tic cuando se detecta en "
+"la entrada bien un flanco de subida o uno de bajada"
 
 #: translation.js:101
 msgid "Sync 1-bit input with the system clock domain"
@@ -406,6 +411,8 @@ msgstr ""
 msgid ""
 "Select positive or negative logic for the input (0=positive, 1=negative)"
 msgstr ""
+"Seleccionar lógica positiva o negativa para la entrada (0=positiva, "
+"1=negativa)"
 
 #: translation.js:103
 msgid "## DFF-rst: Manual testing\n"
@@ -421,15 +428,15 @@ msgstr ""
 
 #: translation.js:106
 msgid "Rising edge detector"
-msgstr ""
+msgstr "Detector de flanco de subida"
 
 #: translation.js:107
 msgid "Pull up on/off"
-msgstr ""
+msgstr "Pull up on/off"
 
 #: translation.js:108
 msgid "Not on/off"
-msgstr ""
+msgstr "Not on/off"
 
 #: translation.js:109
 msgid ""
@@ -444,9 +451,8 @@ msgstr ""
 "en la señal de  entrada"
 
 #: translation.js:110
-#, fuzzy
 msgid "Input signal"
-msgstr "Dato de entrada"
+msgstr "Señal de entrada"
 
 #: translation.js:111
 msgid ""
@@ -459,6 +465,8 @@ msgid ""
 "Signal state in the previous  \n"
 "clock cycle"
 msgstr ""
+"Estado de la señal en el ciclo  \n"
+"previo de reloj"
 
 #: translation.js:113
 msgid ""
@@ -469,6 +477,12 @@ msgid ""
 "\n"
 "In any other case the output is 0"
 msgstr ""
+"Si la señal actual es 1 y su valor en  \n"
+"el ciclo previo de reloj era 0, significa  \n"
+"que un flanco de subida se ha detectado!  \n"
+"La salida es 1\n"
+"\n"
+"En cualquier otro caso la salida es 0"
 
 #: translation.js:114
 msgid ""
@@ -488,6 +502,9 @@ msgid ""
 "* 0: OFF\n"
 "* 1: ON"
 msgstr ""
+"Pull-up interno  \n"
+"* 0: no apagado\n"
+"* 1: Apagado"
 
 #: translation.js:116
 msgid "Synchronization stage"
@@ -500,6 +517,10 @@ msgid ""
 "* 0: Wire\n"
 "* 1: signal inverted"
 msgstr ""
+"Estapa de normalización\n"
+"\n"
+"* 0: Cable\n"
+"* 1: Señal invertida"
 
 #: translation.js:118
 msgid "Debouncing stage"
@@ -522,6 +543,8 @@ msgid ""
 "Only an FPGA pin can  \n"
 "be connected here!!!"
 msgstr ""
+"Sólo un pin de la FPGA se  \n"
+"puede conectar aquí"
 
 #: translation.js:121
 msgid ""
@@ -531,7 +554,7 @@ msgstr ""
 
 #: translation.js:122
 msgid "Edge detector"
-msgstr ""
+msgstr "Detector de flancos"
 
 #: translation.js:123
 msgid ""
@@ -545,6 +568,9 @@ msgid ""
 "value, the input is considered stable  \n"
 "and it is captured"
 msgstr ""
+"Si el contador alcanza su máximo  \n"
+"valor, la entrada se considera estable  \n"
+"y se captura"
 
 #: translation.js:125
 msgid ""
@@ -579,24 +605,24 @@ msgstr ""
 "se captura en el biestable de salida"
 
 #: translation.js:127
-#, fuzzy
 msgid "Stable output"
-msgstr "Salida para Icerok"
+msgstr "Salida estable"
 
 #: translation.js:128
 msgid "Counter"
 msgstr "Contador"
 
 #: translation.js:129
-#, fuzzy
 msgid "Initial value"
-msgstr "Parámetro: Valor inicial"
+msgstr "Valor inicial"
 
 #: translation.js:130
 msgid ""
 "Reset input: Active high  \n"
 "When rst = 1, the DFF is reset to 0"
 msgstr ""
+"Entrada de reset: Activa a nivel alto  \n"
+"Cuando rst=1, el biestable D se inicializa a 0"
 
 #: translation.js:131
 msgid ""
@@ -621,7 +647,7 @@ msgstr ""
 
 #: translation.js:133
 msgid "In any other case the output is 0"
-msgstr ""
+msgstr "En cualquier otro caso la salida es 0"
 
 #: translation.js:134
 msgid ""
@@ -669,10 +695,12 @@ msgid ""
 "Ledoscope. Capture the input signal during the first 4 cycles after circuit "
 "initialization"
 msgstr ""
+"Ledoscope. Capturar la señal de entrada durante los 4 primeros ciclos de "
+"reloj tras la inicialización del circuito"
 
 #: translation.js:142
 msgid "RS-FF-set. RS Flip-flop with priority set"
-msgstr ""
+msgstr "RS-FF-set. Biestable RS con prioridad en set"
 
 #: translation.js:143
 msgid "Constant bit 1"
@@ -680,7 +708,7 @@ msgstr "Bit 1 constante"
 
 #: translation.js:144
 msgid "SReg-right-x4: 4 bits Shift register (to the right)"
-msgstr ""
+msgstr "SReg-right-x4: Registro de desplazamiento de 4 bits (hacia la derecha)"
 
 #: translation.js:145
 msgid "2-bits Syscounter"
@@ -688,7 +716,7 @@ msgstr "Contador del sistema de 2-bits"
 
 #: translation.js:146
 msgid "Inc1-2bit: Increment a 2-bits number by one"
-msgstr ""
+msgstr "Inc1-2bit: Incrementar un número de dos bits en uno"
 
 #: translation.js:147
 msgid "AdderK-2bit: Adder of 2-bit operand and 2-bit constant"
@@ -696,7 +724,7 @@ msgstr "AdderK-2bit: Sumador de un operando y una constante de"
 
 #: translation.js:148
 msgid "Generic: 2-bits generic constant (0,1,2,3)"
-msgstr ""
+msgstr "Genérico: Constante genérica de 2-bits (0,1,2,3)"
 
 #: translation.js:149
 msgid "Adder-2bits: Adder of two operands of 2 bits"
@@ -730,11 +758,11 @@ msgstr ""
 
 #: translation.js:154
 msgid "Initial value: cycle 0"
-msgstr ""
+msgstr "Valor inicial: ciclo 0"
 
 #: translation.js:155
 msgid "LEDOscope"
-msgstr ""
+msgstr "LEDOscope"
 
 #: translation.js:156
 msgid "DFF: D-Flip-Flop"
@@ -746,7 +774,7 @@ msgstr "ciclo 1"
 
 #: translation.js:158
 msgid "Rst on cycle 2"
-msgstr ""
+msgstr "Rst en el ciclo 2"
 
 #: translation.js:159
 msgid "4-bits Shift register"
@@ -761,7 +789,7 @@ msgstr ""
 
 #: translation.js:161
 msgid "RS FlipFlop initialized to 1"
-msgstr ""
+msgstr "Biestable RS inicializado a 1"
 
 #: translation.js:162
 msgid ""
@@ -797,7 +825,7 @@ msgstr ""
 
 #: translation.js:166
 msgid "Priority for the set"
-msgstr ""
+msgstr "Prioridad en set"
 
 #: translation.js:168
 msgid ""
