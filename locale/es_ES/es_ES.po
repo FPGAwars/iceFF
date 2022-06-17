@@ -33,7 +33,7 @@ msgstr ""
 
 #: translation.js:14
 msgid "2-to-1 Multplexer (1-bit channels)"
-msgstr ""
+msgstr "Multiplexor de 2 a 1 (Canales de 1 bit)"
 
 #: translation.js:15
 msgid "OR2: Two bits input OR gate"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: translation.js:36
 msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
-msgstr ""
+msgstr "Multiplesor de 2 a 1 (Canales de 1-bit).  Version invertida"
 
 #: translation.js:37
 msgid ""
@@ -254,7 +254,7 @@ msgstr "Biestable D"
 #: translation.js:67 translation.js:68 translation.js:138 translation.js:174
 #: translation.js:175 translation.js:178 translation.js:181
 msgid "Alhambra-II"
-msgstr ""
+msgstr "Alhambra-II"
 
 #: translation.js:70
 msgid "Button-tic: Configurable button that emits a tic when it is pressed"
@@ -313,7 +313,7 @@ msgstr ""
 
 #: translation.js:83
 msgid "Bus16-Join-quarter: Join the four same buses into an 16-bits Bus"
-msgstr ""
+msgstr "Bus16-Join-quarter: Agrupar los cuatro buses iguales en uno de 16-bits"
 
 #: translation.js:84
 msgid "Inc1-16bit: Increment a 16-bits number by one"
@@ -322,6 +322,7 @@ msgstr ""
 #: translation.js:85
 msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
 msgstr ""
+"AdderK-16-bit: Sumador un operando de 16 bits y una constante de 16 bits"
 
 #: translation.js:86
 msgid "Generic: 16-bits generic constant"
@@ -329,7 +330,7 @@ msgstr ""
 
 #: translation.js:87
 msgid "Adder-16bits: Adder of two operands of 16 bits"
-msgstr ""
+msgstr "Adder-16bits: Sumador de dos operandos de 16 bits"
 
 #: translation.js:88
 msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
@@ -337,7 +338,7 @@ msgstr ""
 
 #: translation.js:89
 msgid "Adder-8bits: Adder of two operands of 8 bits"
-msgstr ""
+msgstr "Adder-8-bit: Sumador de dos operandos de 8 bits"
 
 #: translation.js:90
 msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
@@ -345,15 +346,16 @@ msgstr ""
 
 #: translation.js:91
 msgid "Adder-4bits: Adder of two operands of 4 bits"
-msgstr ""
+msgstr "Adder-4-bit: Sumador de dos operandos de 4 bits"
 
 #: translation.js:92
 msgid "Adder-1bit: Adder of two operands of 1 bit"
-msgstr ""
+msgstr "Adder-1-bit: Sumador de dos operandos de 1 bit"
 
 #: translation.js:93
 msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
 msgstr ""
+"AdderC-1-bit: Sumador de dos operandos de 1 bit y el acarreo de entrada"
 
 #: translation.js:94
 msgid "XOR gate: two bits input xor gate"
@@ -370,14 +372,16 @@ msgstr ""
 #: translation.js:97
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
 msgstr ""
+"AdderC-4-bit: Sumador de dos operandos de 4 bit y el acarreo de entrada"
 
 #: translation.js:98
 msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
 msgstr ""
+"AdderC-8-bit: Sumador de dos operandos de 8 bits y el acarreo de entrada"
 
 #: translation.js:99
 msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
-msgstr ""
+msgstr "Bus16-Join-half: Agrupar las dos mitades iguales en un bus de 16-bits"
 
 #: translation.js:100
 msgid ""
@@ -649,7 +653,7 @@ msgstr "## DFF: Prueba manual\n"
 
 #: translation.js:139
 msgid "Alhabra-II"
-msgstr ""
+msgstr "Alhambra-II"
 
 #: translation.js:141
 msgid ""
@@ -671,7 +675,7 @@ msgstr ""
 
 #: translation.js:145
 msgid "2-bits Syscounter"
-msgstr ""
+msgstr "Contador del sistema de 2-bits"
 
 #: translation.js:146
 msgid "Inc1-2bit: Increment a 2-bits number by one"
@@ -679,7 +683,7 @@ msgstr ""
 
 #: translation.js:147
 msgid "AdderK-2bit: Adder of 2-bit operand and 2-bit constant"
-msgstr ""
+msgstr "AdderK-2bit: Sumador de un operando y una constante de"
 
 #: translation.js:148
 msgid "Generic: 2-bits generic constant (0,1,2,3)"
@@ -687,7 +691,7 @@ msgstr ""
 
 #: translation.js:149
 msgid "Adder-2bits: Adder of two operands of 2 bits"
-msgstr ""
+msgstr "Adder-2-bit: Sumador de dos operandos de 2 bit"
 
 #: translation.js:150
 msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
@@ -738,7 +742,7 @@ msgstr ""
 
 #: translation.js:159
 msgid "4-bits Shift register"
-msgstr ""
+msgstr "Registro de desplazamiento de 4-bits"
 
 #: translation.js:160
 msgid ""
@@ -767,6 +771,9 @@ msgid ""
 "reset and it stops capturing  \n"
 "bits"
 msgstr ""
+"Tras 4 ciclos el Biestable se  \n"
+"resetea y para de capturar  \n"
+"bits"
 
 #: translation.js:165
 msgid ""
@@ -775,6 +782,10 @@ msgid ""
 "generated when the counter reaches the maximum  \n"
 "value and the Ledoscope is on (busy)"
 msgstr ""
+"Mientras el contador del sistema de 2-bits está contando  \n"
+"todo el tiempo, la señal de done se  \n"
+"genera sólo cuando el contador alcanza el máximo  \n"
+"valor y el LEDoscopio está encendido (busy)"
 
 #: translation.js:166
 msgid "Priority for the set"
