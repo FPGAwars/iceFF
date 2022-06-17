@@ -21,7 +21,7 @@ msgstr "DFFs"
 
 #: translation.js:11 translation.js:62
 msgid "TFFs"
-msgstr ""
+msgstr "TFFs"
 
 #: translation.js:12 translation.js:64 translation.js:69
 msgid "DFF-rst"
@@ -41,7 +41,7 @@ msgstr "OR2: Puerta OR de dos bits de entrada"
 
 #: translation.js:16
 msgid "Two bits input And gate"
-msgstr ""
+msgstr "Puerta AND de dos bits de entrada"
 
 #: translation.js:17
 msgid "NOT gate (Verilog implementation)"
@@ -174,7 +174,7 @@ msgstr ""
 
 #: translation.js:42 translation.js:172
 msgid "TFF-rst"
-msgstr ""
+msgstr "TFF-rst"
 
 #: translation.js:43
 msgid ""
@@ -186,7 +186,7 @@ msgstr ""
 
 #: translation.js:44 translation.js:173
 msgid "TFF-sys-rst"
-msgstr ""
+msgstr "TFF-sys-rst"
 
 #: translation.js:45
 msgid "System TFF with reset: It toogles its output on every system cycle"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: translation.js:46
 msgid "TFF-sys"
-msgstr ""
+msgstr "TFF-sys"
 
 #: translation.js:47
 msgid "System TFF: It toogles its output on every system cycle"
@@ -374,7 +374,7 @@ msgstr ""
 
 #: translation.js:94
 msgid "XOR gate: two bits input xor gate"
-msgstr ""
+msgstr "Puerta XOR: Puerta XOR de dos bits de entrada"
 
 #: translation.js:95
 msgid "Constant bit 0"
@@ -427,7 +427,7 @@ msgstr "Señal de estado del botón"
 
 #: translation.js:105
 msgid "Tic: button pressed"
-msgstr ""
+msgstr "Tic: Botón apretado"
 
 #: translation.js:106
 msgid "Rising edge detector"
@@ -547,13 +547,15 @@ msgid ""
 "be connected here!!!"
 msgstr ""
 "Sólo un pin de la FPGA se  \n"
-"puede conectar aquí"
+"puede conectar aquí!!!"
 
 #: translation.js:121
 msgid ""
 "The pull-up is connected  \n"
 "by default"
 msgstr ""
+"Se conecta el pull-up  \n"
+"por defecto"
 
 #: translation.js:122
 msgid "Edge detector"
@@ -564,6 +566,8 @@ msgid ""
 "Whenever there is a change in  \n"
 "the input, the counter is started"
 msgstr ""
+"En cuanto hay un cambio en  \n"
+"la entrada, el contador se arranca"
 
 #: translation.js:124
 msgid ""
@@ -647,6 +651,9 @@ msgid ""
 "previous 0, or if the current value is 0 and the  \n"
 "previous 1\n"
 msgstr ""
+"La salida es 1 si el valor actual es 1 y el  \n"
+"previo 0, ó si el actual es 0 y el  \n"
+"previo 1\n"
 
 #: translation.js:133
 msgid "In any other case the output is 0"
@@ -659,6 +666,10 @@ msgid ""
 "When k=1, it act as a not gate\n"
 "(The output is the inverse of the input)"
 msgstr ""
+"Cuando k=0, funciona como un cable  \n"
+"(La salida es igual a la entrada)  \n"
+"Cuando k=1, actúa como una puerta NOT  \n"
+"(La salida es la inversa de la entrada)"
 
 #: translation.js:135
 msgid ""
@@ -789,6 +800,9 @@ msgid ""
 "on the register. One bit per  \n"
 "system clock"
 msgstr ""
+"Se captura el canal de entrada  \n"
+"en el registro. Un bit por  \n"
+"ciclo del sistema"
 
 #: translation.js:161
 msgid "RS FlipFlop initialized to 1"
@@ -799,6 +813,8 @@ msgid ""
 "while 1, the shift register  \n"
 "is capturing"
 msgstr ""
+"mientras sea 1, el registro de  \n"
+"desplazamiento está capturando"
 
 #: translation.js:163
 msgid "2-bits counter"
@@ -846,11 +862,11 @@ msgstr ""
 
 #: translation.js:169
 msgid "Values for cycles >= 1"
-msgstr ""
+msgstr "Valores para ciclos >= 1"
 
 #: translation.js:171
 msgid "TFF-Sys"
-msgstr ""
+msgstr "TFF-Sys"
 
 #: translation.js:177
 msgid "# TFF-sys: Manual testing"
