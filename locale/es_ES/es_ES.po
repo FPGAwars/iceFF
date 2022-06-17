@@ -25,11 +25,11 @@ msgstr ""
 
 #: translation.js:12 translation.js:64 translation.js:69
 msgid "DFF-rst"
-msgstr ""
+msgstr "DFF-rst"
 
 #: translation.js:13
 msgid "D Flip-Flop with load and reset"
-msgstr ""
+msgstr "Biestable D con load y reset"
 
 #: translation.js:14
 msgid "2-to-1 Multplexer (1-bit channels)"
@@ -53,6 +53,8 @@ msgid ""
 "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is set to it "
 "initial value"
 msgstr ""
+"DFF-rst-x01: Biestable D con entrada de reset. Cuando rst=1, el biestable D "
+"carga el valor inicial"
 
 #: translation.js:19
 msgid "D Flip-flop (verilog implementation)"
@@ -87,7 +89,7 @@ msgstr ""
 
 #: translation.js:26
 msgid "Data input"
-msgstr ""
+msgstr "Entrada de datos"
 
 #: translation.js:27
 msgid "System clock"
@@ -144,6 +146,8 @@ msgid ""
 "D Flip-flip\n"
 "(System)"
 msgstr ""
+"Biestable D\n"
+"(Sistema)"
 
 #: translation.js:39 translation.js:65
 msgid "Sys-DFF"
@@ -233,9 +237,8 @@ msgid "D Flip-Flop"
 msgstr "Biestable D"
 
 #: translation.js:57
-#, fuzzy
 msgid "D Flip-Flop rst"
-msgstr "Biestable D"
+msgstr "Biestable D con reset"
 
 #: translation.js:58
 msgid "## TFFs"
@@ -258,7 +261,7 @@ msgstr "Alhambra-II"
 
 #: translation.js:70
 msgid "Button-tic: Configurable button that emits a tic when it is pressed"
-msgstr ""
+msgstr "Button-tic: Botón configurable que emite un tic cuando se aprieta"
 
 #: translation.js:71
 msgid ""
@@ -268,7 +271,7 @@ msgstr ""
 
 #: translation.js:72
 msgid "Configurable button (pull-up on/off. Not on/off)"
-msgstr ""
+msgstr "Botón configurable (pull-up on/off. Not on/off)"
 
 #: translation.js:73
 msgid "FPGA internal pull-up configuration on the input port"
@@ -288,28 +291,32 @@ msgstr "Contador del sistema de 16-bits con reset"
 
 #: translation.js:77
 msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
-msgstr ""
+msgstr "DFF-rst-x16: 16 Biestables D en paralelo con reset"
 
 #: translation.js:78
 msgid "DFF-rst-x04: Three D flip-flops in paralell with reset"
-msgstr ""
+msgstr "DFF-rst-x04: Tres biestables D en paralelo, con reset"
 
 #: translation.js:79
 msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
-msgstr ""
+msgstr "Bus4-Split-all: Separar el bus de 4 bits en sus cables"
 
 #: translation.js:80
 msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
-msgstr ""
+msgstr "Bus4-Join-all:  Agrupar todos los cables en un bus de 4 bits"
 
 #: translation.js:81
 msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
 msgstr ""
+"Dff-rst-x01: Biestable D con entrada de reset. Cuando rst=1, el biestable es "
+"0"
 
 #: translation.js:82
 msgid ""
 "Bus16-Split-quarter: Split the 16-bits bus into four buses of the same size"
 msgstr ""
+"Bus16-Split-quarter: Separar el bus de 16 bits en cuatro buses del mismo "
+"tamaño"
 
 #: translation.js:83
 msgid "Bus16-Join-quarter: Join the four same buses into an 16-bits Bus"
@@ -335,6 +342,7 @@ msgstr "Adder-16bits: Sumador de dos operandos de 16 bits"
 #: translation.js:88
 msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
 msgstr ""
+"Bus16-Split-half: Separar el bus de 16 bits en dos buses del mismo tamaño"
 
 #: translation.js:89
 msgid "Adder-8bits: Adder of two operands of 8 bits"
@@ -343,6 +351,7 @@ msgstr "Adder-8-bit: Sumador de dos operandos de 8 bits"
 #: translation.js:90
 msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
 msgstr ""
+"Bus8-Split-half: Separar el bus de 8-bits en dos buses del mismo tamaño"
 
 #: translation.js:91
 msgid "Adder-4bits: Adder of two operands of 4 bits"
@@ -363,11 +372,11 @@ msgstr ""
 
 #: translation.js:95
 msgid "Constant bit 0"
-msgstr ""
+msgstr "Bit 0 constante"
 
 #: translation.js:96
 msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-half: Agrupar las dos mitades iguales en un bus de 8-bits"
 
 #: translation.js:97
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
@@ -404,7 +413,7 @@ msgstr "## DFF-rst: Prueba manual\n"
 
 #: translation.js:104
 msgid "Button state signal"
-msgstr ""
+msgstr "Señal de estado del botón"
 
 #: translation.js:105
 msgid "Tic: button pressed"
@@ -443,7 +452,7 @@ msgstr "Dato de entrada"
 msgid ""
 "Current signal  \n"
 "state"
-msgstr ""
+msgstr "Estado de la señal actual"
 
 #: translation.js:112
 msgid ""
@@ -494,7 +503,7 @@ msgstr ""
 
 #: translation.js:118
 msgid "Debouncing stage"
-msgstr ""
+msgstr "Estapa antirrebotes"
 
 #: translation.js:119
 msgid ""
@@ -576,7 +585,7 @@ msgstr "Salida para Icerok"
 
 #: translation.js:128
 msgid "Counter"
-msgstr ""
+msgstr "Contador"
 
 #: translation.js:129
 #, fuzzy
@@ -667,7 +676,7 @@ msgstr ""
 
 #: translation.js:143
 msgid "Constant bit 1"
-msgstr ""
+msgstr "Bit 1 constante"
 
 #: translation.js:144
 msgid "SReg-right-x4: 4 bits Shift register (to the right)"
@@ -695,15 +704,15 @@ msgstr "Adder-2-bit: Sumador de dos operandos de 2 bit"
 
 #: translation.js:150
 msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
-msgstr ""
+msgstr "Bus2-Split-all: Separar un bus de 2-bits en sus dos cables"
 
 #: translation.js:151
 msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
-msgstr ""
+msgstr "Bus2-Join-all: Agrupar dos cables en un bus de 2-bits"
 
 #: translation.js:152
 msgid "DFF-02: Two D flip-flops in paralell"
-msgstr ""
+msgstr "DFF-02: Dos biestables D en paralelo"
 
 #: translation.js:153
 msgid ""
@@ -728,13 +737,12 @@ msgid "LEDOscope"
 msgstr ""
 
 #: translation.js:156
-#, fuzzy
 msgid "DFF: D-Flip-Flop"
-msgstr "Biestable D"
+msgstr "DFF: Biestable D"
 
 #: translation.js:157
 msgid "cycle 1"
-msgstr ""
+msgstr "ciclo 1"
 
 #: translation.js:158
 msgid "Rst on cycle 2"
