@@ -61,12 +61,16 @@ For installing and using this colection in Icestudio follow these steps:
     * 01-Sys-DFF-initial-pulse
   * **Nandland-go-board**
     * 01-Sys-DFF-initial-pulse
+  * **ULX3S-12F**
+    * 01-Sys-DFF-initial-pulse
   * **iCEBreaker**
     * 01-Sys-DFF-initial-pulse
 * **02-Sys-DFF-delay**
   * **Alhambra-II**
     * 02-Sys-DFF-delay
   * **Nandland-go-board**
+    * 02-Sys-DFF-delay
+  * **ULX3S-12F**
     * 02-Sys-DFF-delay
   * **iCEBreaker**
     * 02-Sys-DFF-delay
@@ -75,12 +79,16 @@ For installing and using this colection in Icestudio follow these steps:
     * 03-Sys-DFF-rst
   * **Nandland-go-board**
     * 03-Sys-DFF-rst
+  * **ULX3S-12F**
+    * 03-Sys-DFF-rst
   * **iCEBreaker**
     * 03-Sys-DFF-rst
 * **04-DFF-button-LED**
   * **Alhambra-II**
     * 04-DFF-button-LED
   * **Nandland-go-board**
+    * 04-DFF-button-LED
+  * **ULX3S-12F**
     * 04-DFF-button-LED
   * **iCEBreaker**
     * 04-DFF-button-LED
@@ -89,12 +97,16 @@ For installing and using this colection in Icestudio follow these steps:
     * 05-DFF-rst-buttons-LED
   * **Nandland-go-board**
     * 05-DFF-rst-buttons-LED
+  * **ULX3S-12F**
+    * 05-DFF-rst-buttons-LED
   * **iCEBreaker**
     * 05-DFF-rst-buttons-LED
 * **06-Sys-TFF-Test**
   * **Alhambra-II**
     * 06-Sys-TFF-Test
   * **Nandland-go-board**
+    * 06-Sys-TFF-Test
+  * **ULX3S-12F**
     * 06-Sys-TFF-Test
   * **iCEBreaker**
     * 06-Sys-TFF-Test
