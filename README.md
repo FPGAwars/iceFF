@@ -120,6 +120,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 06-Sys-TFF-Test
   * **iCEBreaker**
     * 06-Sys-TFF-Test
+  * **iCESugar-1.5**
+    * 06-Sys-TFF-Test
 * **07-Sys-TFF-rst-Test**
   * **Alhambra-II**
     * 07-Sys-TFF-rst-Test
@@ -128,6 +130,8 @@ For installing and using this colection in Icestudio follow these steps:
   * **ULX3S-12F**
     * 07-Sys-TFF-rst-Test
   * **iCEBreaker**
+    * 07-Sys-TFF-rst-Test
+  * **iCESugar-1.5**
     * 07-Sys-TFF-rst-Test
 * **08-TFF-button-LED**
   * **Alhambra-II**
@@ -138,6 +142,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 08-TFF-button-LED
   * **iCEBreaker**
     * 08-TFF-button-LED
+  * **iCESugar-1.5**
+    * 08-TFF-button-LED
 * **09-TFF-rst-buttons-LED**
   * **Alhambra-II**
     * 09-TFF-rst-buttons-LED
@@ -146,6 +152,8 @@ For installing and using this colection in Icestudio follow these steps:
   * **ULX3S-12F**
     * 09-TFF-rst-buttons-LED
   * **iCEBreaker**
+    * 09-TFF-rst-buttons-LED
+  * **iCESugar-1.5**
     * 09-TFF-rst-buttons-LED
 * **10-RS-FF-set-priority-test**
   * **Alhambra-II**
@@ -156,12 +164,16 @@ For installing and using this colection in Icestudio follow these steps:
     * 10-RS-FF-set-priority-Manual-testing
   * **iCEBreaker**
     * 10-RS-FF-set-priority-Manual-testing
+  * **iCESugar-1.5**
+    * 10-RS-FF-set-priority-Manual-testing
 * **11-RS-FF-reset-priority-test**
   * **Alhambra-II**
     * 11-RS-FF-reset-priority-Manual-testing
   * **ULX3S-12F**
     * 11-RS-FF-reset-priority-Manual-testing
   * **iCEBreaker**
+    * 11-RS-FF-reset-priority-Manual-testing
+  * **iCESugar-1.5**
     * 11-RS-FF-reset-priority-Manual-testing
 * **TESTs**
   * **DFFs**
