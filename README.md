@@ -59,20 +59,32 @@ For installing and using this colection in Icestudio follow these steps:
 * **01-Sys-DFF-initial-pulse**
   * **Alhambra-II**
     * 01-Sys-DFF-initial-pulse
+  * **Nandland-go-board**
+    * 01-Sys-DFF-initial-pulse
 * **02-Sys-DFF-delay**
   * **Alhambra-II**
+    * 02-Sys-DFF-delay
+  * **Nandland-go-board**
     * 02-Sys-DFF-delay
 * **03-Sys-DFF-rst**
   * **Alhambra-II**
     * 03-Sys-DFF-rst
+  * **Nandland-go-board**
+    * 03-Sys-DFF-rst
 * **04-DFF-button-LED**
   * **Alhambra-II**
+    * 04-DFF-button-LED
+  * **Nandland-go-board**
     * 04-DFF-button-LED
 * **05-DFF-rst-buttons-LED**
   * **Alhambra-II**
     * 05-DFF-rst-buttons-LED
+  * **Nandland-go-board**
+    * 05-DFF-rst-buttons-LED
 * **06-Sys-TFF-Test**
   * **Alhambra-II**
+    * 06-Sys-TFF-Test
+  * **Nandland-go-board**
     * 06-Sys-TFF-Test
 * **07-Sys-TFF-rst-Test**
   * **Alhambra-II**
