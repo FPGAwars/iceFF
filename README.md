@@ -89,14 +89,22 @@ For installing and using this colection in Icestudio follow these steps:
 * **07-Sys-TFF-rst-Test**
   * **Alhambra-II**
     * 07-Sys-TFF-rst-Test
+  * **Nandland-go-board**
+    * 07-Sys-TFF-rst-Test
 * **08-TFF-button-LED**
   * **Alhambra-II**
+    * 08-TFF-button-LED
+  * **Nandland-go-board**
     * 08-TFF-button-LED
 * **09-TFF-rst-buttons-LED**
   * **Alhambra-II**
     * 09-TFF-rst-buttons-LED
+  * **Nandland-go-board**
+    * 09-TFF-rst-buttons-LED
 * **10-RS-FF-set-priority-test**
   * **Alhambra-II**
+    * 10-RS-FF-set-priority-Manual-testing
+  * **Nandland-go-board**
     * 10-RS-FF-set-priority-Manual-testing
 * **11-RS-FF-reset-priority-test**
   * **Alhambra-II**
