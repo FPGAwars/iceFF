@@ -65,6 +65,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 01-Sys-DFF-initial-pulse
   * **iCEBreaker**
     * 01-Sys-DFF-initial-pulse
+  * **iCESugar-1.5**
+    * 01-Sys-DFF-initial-pulse
 * **02-Sys-DFF-delay**
   * **Alhambra-II**
     * 02-Sys-DFF-delay
@@ -73,6 +75,8 @@ For installing and using this colection in Icestudio follow these steps:
   * **ULX3S-12F**
     * 02-Sys-DFF-delay
   * **iCEBreaker**
+    * 02-Sys-DFF-delay
+  * **iCESugar-1.5**
     * 02-Sys-DFF-delay
 * **03-Sys-DFF-rst**
   * **Alhambra-II**
@@ -83,6 +87,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 03-Sys-DFF-rst
   * **iCEBreaker**
     * 03-Sys-DFF-rst
+  * **iCESugar-1.5**
+    * 03-Sys-DFF-rst
 * **04-DFF-button-LED**
   * **Alhambra-II**
     * 04-DFF-button-LED
@@ -92,6 +98,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 04-DFF-button-LED
   * **iCEBreaker**
     * 04-DFF-button-LED
+  * **iCESugar-1.5**
+    * 04-DFF-button-LED
 * **05-DFF-rst-buttons-LED**
   * **Alhambra-II**
     * 05-DFF-rst-buttons-LED
@@ -100,6 +108,8 @@ For installing and using this colection in Icestudio follow these steps:
   * **ULX3S-12F**
     * 05-DFF-rst-buttons-LED
   * **iCEBreaker**
+    * 05-DFF-rst-buttons-LED
+  * **iCESugar-1.5**
     * 05-DFF-rst-buttons-LED
 * **06-Sys-TFF-Test**
   * **Alhambra-II**
