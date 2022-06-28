@@ -48,6 +48,7 @@ gettext('Sys-DFF');
 gettext('Sys-DFF');
 gettext('System - D Flip-flop. Capture data every system clock cycle');
 gettext('# D Flip-Flop  (system)\n\nIt stores the input data that arrives at cycle n  \nIts output is shown in the cycle n+1');
+gettext('Not connected');
 gettext('RS-FF-reset-verilog');
 gettext('RS-FF-reset. RS Flip-flop with priority reset');
 gettext('RS-FF-reset');
