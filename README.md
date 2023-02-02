@@ -41,10 +41,11 @@ For installing and using this colection in Icestudio follow these steps:
     * DFF
     * Sys-DFF-rst
 * **RS-FF**
-  * RS-FF-reset-verilog
   * RS-FF-reset
-  * RS-FF-set-verilog
   * RS-FF-set
+  * **Block**
+    * RS-FF-reset
+    * RS-FF-set
 * **TFFs**
   * Sys-TFF-rst
   * Sys-TFF
