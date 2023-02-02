@@ -46,14 +46,15 @@ For installing and using this colection in Icestudio follow these steps:
   * RS-FF-set-verilog
   * RS-FF-set
 * **TFFs**
-  * Sys-TFF-rst-verilog
   * Sys-TFF-rst
-  * Sys-TFF-verilog
   * Sys-TFF
-  * TFF-rst-verilog
   * TFF-rst
-  * TFF-verilog
   * TFF
+  * **Block**
+    * Sys-TFF-rst
+    * Sys-TFF
+    * TFF-rst
+    * TFF
 
 ## Examples
 * 00-index
