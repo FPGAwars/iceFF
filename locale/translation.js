@@ -69,7 +69,7 @@ gettext('System TFF: It toogles its output on every system cycle. Verilog implem
 gettext('TFF-rst');
 gettext('TFF with toggle input and reset: It toogles on every system cycle if the input is active. Verilog implementation');
 gettext('TFF');
-gettext('System TFF with toggle input: It toogles on every system cycle if the input is active. Verilog implementation');
+gettext('System TFF with toggle input: It toogles on every system cycle if the input is active');
 gettext('Sys-TFF-rst');
 gettext('System TFF with reset: It toogles its output on every system cycle');
 gettext('Sys-TFF');
@@ -77,7 +77,6 @@ gettext('System TFF: It toogles its output on every system cycle');
 gettext('TFF-rst');
 gettext('System TFF with toggle input and reset: It toogles on every system cycle if the input is active');
 gettext('TFF');
-gettext('System TFF with toggle input: It toogles on every system cycle if the input is active');
 gettext('Reg: 1-Bit register');
 gettext('2-to-1 Multplexer (1-bit channels). Fippled version');
 gettext('01-Sys-DFF-initial-pulse');
