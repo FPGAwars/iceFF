@@ -48,6 +48,8 @@ gettext('DFF: D flip-flop with load input');
 gettext('2-to-1 Multplexer (1-bit channels). Fippled version');
 gettext('D Flip-flip\n(System)');
 gettext('Sys-DFF-rst');
+gettext('DFF-rst: D Flip flop with reset input. When rst=1, the DFF is set to it initial value');
+gettext('2-to-1 Multplexer (1-bit channels). Verilog implementation');
 gettext('RS-FF-reset-verilog');
 gettext('RS-FF-reset. RS Flip-flop with priority reset');
 gettext('RS-FF-reset');
