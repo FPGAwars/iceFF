@@ -39,6 +39,7 @@ For installing and using this colection in Icestudio follow these steps:
   * **Block**
     * DFF-rst
     * DFF
+    * Sys-DFF-ld
     * Sys-DFF-rst
 * **RS-FF**
   * RS-FF-reset
@@ -187,6 +188,9 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-manual-testing
     * **Sys-DFF**
+    * **Sys-DFF-ld**
+      * **Alhambra-II**
+        * 01-manual-testing
     * **Sys-DFF-rst**
       * **Alhabra-II**
         * 01-manual-testing
