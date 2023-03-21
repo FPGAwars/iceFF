@@ -34,6 +34,7 @@ For installing and using this colection in Icestudio follow these steps:
 * **DFFs**
   * DFF-rst
   * DFF
+  * Sys-DFF-ld-rst
   * Sys-DFF-ld
   * Sys-DFF-rst
   * Sys-DFF
@@ -190,6 +191,9 @@ For installing and using this colection in Icestudio follow these steps:
         * 01-manual-testing
     * **Sys-DFF**
     * **Sys-DFF-ld**
+    * **Sys-DFF-ld-rst**
+      * **Alhambra-II**
+        * 01-manual-testing
       * **Alhambra-II**
         * 01-manual-testing
     * **Sys-DFF-rst**
