@@ -41,6 +41,7 @@ For installing and using this colection in Icestudio follow these steps:
   * **Block**
     * DFF-rst
     * DFF
+    * Sys-DFF-ld-rst
     * Sys-DFF-ld
     * Sys-DFF-rst
 * **RS-FF**
