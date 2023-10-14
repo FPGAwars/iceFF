@@ -56,7 +56,7 @@ gettext('DFF');
 gettext('MuxF-2-1-verilog: 2-to-1 Multplexer (1-bit channels). Fippled version');
 gettext('D Flip-flip\n(System)');
 gettext('Sys-DFF-ld-rst');
-gettext('Sys-DFF-ld-rst. System - D Flip-flop. Capture data every system clock cycle. from input si. If load is active, the data is captured from the d input. Reset input');
+gettext('Sys-DFF-ld-rst. System - D Flip-flop. Capture data every system clock cycle. from input si. If load is active, the data is captured from the d input. Reset input. Block implementation');
 gettext('2-to-1 Multplexer (1-bit channels). Verilog implementation');
 gettext('Sys-DFF-ld');
 gettext('Sys-DFF-ld. System - D Flip-flop. Capture data every system clock cycle. from input si. If load is active, the data is captured from the d input. Block implementation');
