@@ -59,7 +59,7 @@ gettext('Sys-DFF-ld-rst');
 gettext('Sys-DFF-ld-rst. System - D Flip-flop. Capture data every system clock cycle. from input si. If load is active, the data is captured from the d input. Reset input');
 gettext('2-to-1 Multplexer (1-bit channels). Verilog implementation');
 gettext('Sys-DFF-ld');
-gettext('Sys-DFF-ld. System - D Flip-flop. Capture data every system clock cycle. from input si. If load is active, the data is captured from the d input');
+gettext('Sys-DFF-ld. System - D Flip-flop. Capture data every system clock cycle. from input si. If load is active, the data is captured from the d input. Block implementation');
 gettext('Sys-DFF-rst');
 gettext('Sys-DFF-rst: D Flip flop with reset input. When rst=1, the DFF is set to it initial value. Block implementation');
 gettext('Reset input: Active high  \nWhen rst=1, the DFF is set to  \nits initial value');
