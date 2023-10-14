@@ -375,7 +375,6 @@ gettext('## Sys-DFF-ld: Manual testing\n\nThe expected ouput of this circuit is 
 gettext('Active load input  \nat cycle 1');
 gettext('Alhabra-II');
 gettext('01-manual-testing');
-gettext('DFF-rst: D Flip flop with reset input. When rst=1, the DFF is set to it initial value');
 gettext('## Sys-DFF-rst: Manual testing\n\nAn Initial pulse is generated. Its initial value is 1, and then it  \nchange to 0 in the next cycle. The signal can be observed with the OSCILOSCOPE');
 gettext('DFF: D-Flip-Flop');
 gettext('01-manual-testing');
