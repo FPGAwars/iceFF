@@ -53,6 +53,7 @@ gettext('Syste DFF');
 gettext('Mux-2-1');
 gettext('# D Flip-Flop  \n\nIt stores the input data that arrives at cycle n  \nIts output is shown in the cycle n+1');
 gettext('DFF');
+gettext('System - D Flip-flop. Capture data every system clock cycle. Block implementation');
 gettext('MuxF-2-1-verilog: 2-to-1 Multplexer (1-bit channels). Fippled version');
 gettext('D Flip-flip\n(System)');
 gettext('Sys-DFF-ld-rst');
