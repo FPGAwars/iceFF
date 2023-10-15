@@ -132,8 +132,8 @@
           }
         },
         {
-          "id": "0d16e0c9-63b8-4c52-b7f1-6bf47c8bd5ad",
-          "type": "407d80e33e1e8f0d8cbc561cc519af27a522cb6b",
+          "id": "a2be385a-7a84-4253-b428-e0b7750785bb",
+          "type": "e98e1d079313fc9f48ee0d213571e9b6185d8132",
           "position": {
             "x": 632,
             "y": 304
@@ -161,7 +161,7 @@
             "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
           },
           "target": {
-            "block": "0d16e0c9-63b8-4c52-b7f1-6bf47c8bd5ad",
+            "block": "a2be385a-7a84-4253-b428-e0b7750785bb",
             "port": "58d2c88e-2434-438f-986b-0f5b9c3654ca"
           }
         },
@@ -171,7 +171,7 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "0d16e0c9-63b8-4c52-b7f1-6bf47c8bd5ad",
+            "block": "a2be385a-7a84-4253-b428-e0b7750785bb",
             "port": "be33796a-a109-4ab0-a53b-dd6ec67587cd"
           }
         },
@@ -181,7 +181,7 @@
             "port": "664caf9e-5f40-4df4-800a-b626af702e62"
           },
           "target": {
-            "block": "0d16e0c9-63b8-4c52-b7f1-6bf47c8bd5ad",
+            "block": "a2be385a-7a84-4253-b428-e0b7750785bb",
             "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
           }
         },
@@ -207,7 +207,7 @@
         },
         {
           "source": {
-            "block": "0d16e0c9-63b8-4c52-b7f1-6bf47c8bd5ad",
+            "block": "a2be385a-7a84-4253-b428-e0b7750785bb",
             "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
           },
           "target": {
@@ -10321,10 +10321,10 @@
         }
       }
     },
-    "407d80e33e1e8f0d8cbc561cc519af27a522cb6b": {
+    "e98e1d079313fc9f48ee0d213571e9b6185d8132": {
       "package": {
         "name": "DFF-verilog",
-        "version": "0.1",
+        "version": "0.2",
         "description": "DFF. D Flip-flop. Verilog implementation",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22216.379%22%20height=%22279.911%22%20viewBox=%220%200%2057.25032%2074.059853%22%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M41.506%2040.152l13.608%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M34.122%2032.088L24.89%2012.475l-6.45%203.724-2.07-3.583L37.276.546l2.07%203.584-6.093%203.517%2012.03%2018.223s5.4-2.025%208.536.74c3.136%202.766%202.52%204.92%202.887%204.772L33.017%2045.02s-2.849-3.695-2.16-6.795c.687-3.1%203.265-6.137%203.265-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-22.665)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
@@ -10420,7 +10420,7 @@
                     "name": "INI"
                   }
                 ],
-                "code": "//-- Initial value\nreg q = INI;\n\nalways @(posedge clk)\nbegin\n \n //-- When load is active\n //-- the input data is captured\n if (load == 1'b1)\n   q <= d;\n \nend\n"
+                "code": "//-- Initial value\nreg qi = INI;\n\nalways @(posedge clk)\nbegin\n \n //-- When load is active\n //-- the input data is captured\n if (load == 1'b1)\n   qi <= d;\n \nend\n\n//-- Connect the register with the\n//-- output\nassign q = qi;\n"
               },
               "position": {
                 "x": 320,
