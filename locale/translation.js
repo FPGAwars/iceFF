@@ -409,6 +409,7 @@ gettext('Alhambra-II');
 gettext('01-manual-testing');
 gettext('# TFF-sys-rst: Manual testing');
 gettext('01-manual-testing');
+gettext('Sys-TFF: System TFF: It toogles its output on every system cycle. Block implementation');
 gettext('# Sys-TFF: Manual testing');
 gettext('Alhambra-II');
 gettext('Alhambra-II');
