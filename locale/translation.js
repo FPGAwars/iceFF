@@ -82,6 +82,7 @@ gettext('TFF with toggle input and reset: It toogles on every system cycle if th
 gettext('TFF');
 gettext('System TFF with toggle input: It toogles on every system cycle if the input is active');
 gettext('Sys-TFF-rst');
+gettext('TFF-sys-rst. System TFF with reset: It toogles its output on every system cycle. Block implementation');
 gettext('Sys-TFF');
 gettext('System TFF: It toogles its output on every system cycle');
 gettext('TFF-rst');
@@ -408,7 +409,6 @@ gettext('TFF-rst');
 gettext('Alhambra-II');
 gettext('Alhambra-II');
 gettext('01-manual-testing');
-gettext('TFF-sys-rst. System TFF with reset: It toogles its output on every system cycle. Block implementation');
 gettext('# TFF-sys-rst: Manual testing');
 gettext('01-manual-testing');
 gettext('# Sys-TFF: Manual testing');
