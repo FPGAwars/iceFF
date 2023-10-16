@@ -187,7 +187,7 @@ For installing and using this colection in Icestudio follow these steps:
     * **DFF**
     * **DFF-rst**
       * **Alhambra-II**
-        * DFF-rst
+        * Manual-testing
       * **Alhambra-II**
         * 01-manual-testing
     * **Sys-DFF**
