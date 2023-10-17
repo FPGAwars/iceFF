@@ -80,7 +80,7 @@ gettext('Sys-TFF: System TFF: It toogles its output on every system cycle. Veril
 gettext('TFF-rst');
 gettext('TFF with toggle input and reset: It toogles on every system cycle if the input is active. Verilog implementation');
 gettext('TFF');
-gettext('System TFF with toggle input: It toogles on every system cycle if the input is active');
+gettext('TFF-verilog. System TFF with toggle input: It toogles on every system cycle if the input is active. Verilog implementation');
 gettext('Sys-TFF-rst');
 gettext('TFF-sys-rst. System TFF with reset: It toogles its output on every system cycle. Block implementation');
 gettext('Sys-TFF');
@@ -316,6 +316,7 @@ gettext('ULX3S-12F');
 gettext('iCEBreaker');
 gettext('iCESugar-1.5');
 gettext('08-TFF-button-LED');
+gettext('System TFF with toggle input: It toogles on every system cycle if the input is active');
 gettext('# Example: TFF: Toggling a LED with a button\n\nWhen the buton is pressed, the LED is toggled');
 gettext('**TFF**');
 gettext('08-TFF-button-LED');
