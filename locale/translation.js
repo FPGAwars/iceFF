@@ -103,7 +103,6 @@ gettext('10-RS-FF-set-priority-test');
 gettext('11-RS-FF-reset-priority-test');
 gettext('TESTs');
 gettext('00-index');
-gettext('D Flip-Flop with load and reset. Implemented in verilog');
 gettext('System TFF with reset: It toogles its output on every system cycle. Verilog implementation');
 gettext('System TFF: It toogles its output on every system cycle. Verilog implementation');
 gettext('TFF with toggle input and reset: It toogles on every system cycle if the input is active. Verilog implementation');
