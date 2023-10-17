@@ -78,7 +78,7 @@ gettext('Sys-TFF-rst: System TFF with reset: It toogles its output on every syst
 gettext('Sys-TFF');
 gettext('Sys-TFF: System TFF: It toogles its output on every system cycle. Verilog implementation');
 gettext('TFF-rst');
-gettext('TFF with toggle input and reset: It toogles on every system cycle if the input is active. Verilog implementation');
+gettext('TFF-rst-verilog: TFF with toggle input and reset: It toogles on every system cycle if the input is active. Verilog implementation');
 gettext('TFF');
 gettext('TFF-verilog. System TFF with toggle input: It toogles on every system cycle if the input is active. Verilog implementation');
 gettext('Sys-TFF-rst');
@@ -105,6 +105,7 @@ gettext('TESTs');
 gettext('00-index');
 gettext('System TFF with reset: It toogles its output on every system cycle. Verilog implementation');
 gettext('System TFF: It toogles its output on every system cycle. Verilog implementation');
+gettext('TFF with toggle input and reset: It toogles on every system cycle if the input is active. Verilog implementation');
 gettext('# INDEX: IceFF Collection');
 gettext('## DFFs');
 gettext('## TFFs');
