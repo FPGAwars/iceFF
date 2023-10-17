@@ -65,7 +65,7 @@ gettext('RS-FF-reset. RS Flip-flop with priority reset. Verilog implementation')
 gettext('RS-FF-set');
 gettext('RS-FF-set-verilog. RS Flip-flop with priority set. Implementation in verilog');
 gettext('RS-FF-reset');
-gettext('RS-FF-reset. RS Flip-flop with priority reset');
+gettext('RS-FF-reset. RS Flip-flop with priority reset. Block implementation');
 gettext('Constant bit 1');
 gettext('Constant bit 0');
 gettext('Priority for the reset');
@@ -356,6 +356,7 @@ gettext('ULX3S-12F');
 gettext('iCEBreaker');
 gettext('iCESugar-1.5');
 gettext('11-RS-FF-reset-priority-Manual-testing');
+gettext('RS-FF-reset. RS Flip-flop with priority reset');
 gettext('## Example. RS-Flip-flip with priority on Reset: Manual testing  \n\nThe SW1 and SW2 buttons are used for activating the set and reset inputs  \nrespectivelly. The Flip-Flop state is shown on the LED');
 gettext('11-RS-FF-reset-priority-Manual-testing');
 gettext('11-RS-FF-reset-priority-Manual-testing');
