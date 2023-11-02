@@ -184,46 +184,6 @@ For installing and using this colection in Icestudio follow these steps:
     * 11-RS-FF-reset-priority-Manual-testing
   * **iCESugar-1.5**
     * 11-RS-FF-reset-priority-Manual-testing
-* **TESTs**
-  * **DFFs**
-    * **DFF**
-    * **DFF-rst**
-      * **Alhambra-II**
-        * Manual-testing
-      * **Alhambra-II**
-        * 01-manual-testing
-    * **Sys-DFF**
-    * **Sys-DFF-ld**
-    * **Sys-DFF-ld-rst**
-      * **Alhambra-II**
-        * 01-manual-testing
-      * **Alhambra-II**
-        * 01-manual-testing
-    * **Sys-DFF-rst**
-      * **Alhabra-II**
-        * 01-manual-testing
-      * **Alhambra-II**
-        * 01-manual-testing
-  * **RS-FFs**
-    * **RS-FF-reset**
-      * **Alhambra-II**
-        * 01-Manual-testing
-    * **RS-FF-set**
-      * **Alhambra-II**
-        * 01-Manual-testing
-  * **TFFs**
-    * **Sys-TFF**
-    * **Sys-TFF-rst**
-      * **Alhambra-II**
-        * 01-manual-testing
-      * **Alhambra-II**
-        * 01-manual-testing
-    * **TFF**
-    * **TFF-rst**
-      * **Alhambra-II**
-        * 01-manual-testing
-      * **Alhambra-II**
-        * 01-manual-testing
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
