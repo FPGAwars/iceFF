@@ -12,29 +12,29 @@
     "graph": {
       "blocks": [
         {
-          "id": "e883b1c1-5819-4920-b042-2f973d612678",
+          "id": "acdfb320-9afb-4f4c-a807-847752b882b0",
           "type": "basic.output",
           "data": {
             "name": "",
-            "virtual": false,
             "pins": [
               {
                 "index": "0",
                 "name": "LED1",
                 "value": "56"
               }
-            ]
+            ],
+            "virtual": false
           },
           "position": {
-            "x": 776,
-            "y": 328
+            "x": 304,
+            "y": 192
           }
         },
         {
-          "id": "d33439ae-937a-4f8e-9e91-827cc23fd862",
+          "id": "a9aa03bc-ae14-4f3a-b0cd-b9297755b44a",
           "type": "basic.input",
           "data": {
-            "name": "",
+            "name": "Button",
             "virtual": false,
             "pins": [
               {
@@ -46,48 +46,65 @@
             "clock": false
           },
           "position": {
-            "x": 296,
-            "y": 488
+            "x": -264,
+            "y": 224
           }
         },
         {
-          "id": "304702e1-1d61-4553-8266-250f3462a605",
+          "id": "17e37217-8c3a-462a-8bfd-99e641a57c9e",
+          "type": "basic.input",
+          "data": {
+            "name": "Button",
+            "virtual": false,
+            "pins": [
+              {
+                "index": "0",
+                "name": "SW2",
+                "value": "51"
+              }
+            ],
+            "clock": false
+          },
+          "position": {
+            "x": -264,
+            "y": 352
+          }
+        },
+        {
+          "id": "5f336129-532c-4ef9-b3bb-b07cfcff5cdf",
+          "type": "basic.constant",
+          "data": {
+            "name": "Initial_value",
+            "value": "0",
+            "local": false
+          },
+          "position": {
+            "x": 128,
+            "y": 64
+          }
+        },
+        {
+          "id": "19eb5ab2-54e6-4927-a428-5feb53c3e8f9",
           "type": "basic.info",
           "data": {
-            "info": "## Example: DFF: Manual testing\n\nWhen the button is pressed, the DFF captures a 1 and the LED is turned on",
+            "info": "## Example. RS-Flip-flip with priority on set: Manual testing  \n\nThe SW1 and SW2 buttons are used for activating the set and reset inputs  \nrespectivelly. The Flip-Flop state is shown on the LED",
             "readonly": true
           },
           "position": {
-            "x": 288,
-            "y": 168
+            "x": -304,
+            "y": -64
           },
           "size": {
-            "width": 688,
-            "height": 80
+            "width": 856,
+            "height": 88
           }
         },
         {
-          "id": "756f220b-a9b5-4c15-94ff-6cca16260a77",
-          "type": "basic.info",
-          "data": {
-            "info": "DFF",
-            "readonly": true
-          },
+          "id": "b1895764-92a1-4e9d-80cc-745d5155e6d5",
+          "type": "5018a67fe520592d7f82dbf669bb3c3661624b65",
           "position": {
-            "x": 672,
-            "y": 416
-          },
-          "size": {
-            "width": 96,
-            "height": 40
-          }
-        },
-        {
-          "id": "0391fb9d-3b43-4dbc-ba33-00d02f9fef7e",
-          "type": "febcfed8636b8ee9a98750b96ed9e53a165dd4a8",
-          "position": {
-            "x": 464,
-            "y": 328
+            "x": -72,
+            "y": 208
           },
           "size": {
             "width": 96,
@@ -95,303 +112,95 @@
           }
         },
         {
-          "id": "78d0fd29-0c20-4b9a-9679-837fb49b7fba",
-          "type": "8a23ffd0491010ff595493182b82c722bd6902d7",
+          "id": "a6fb9ece-ef0d-4b7c-8046-8b2cb346414d",
+          "type": "5018a67fe520592d7f82dbf669bb3c3661624b65",
           "position": {
-            "x": 632,
-            "y": 312
+            "x": -72,
+            "y": 336
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "3b82f6dd-3a4e-4fb4-b049-fcb85ce9fd01",
+          "type": "634a8264ad6e5fddd31e133eeb433af81e08cca2",
+          "position": {
+            "x": 128,
+            "y": 176
           },
           "size": {
             "width": 96,
             "height": 96
-          }
-        },
-        {
-          "id": "2c92fc2a-d148-49c5-9dc5-57bba6fd2979",
-          "type": "5018a67fe520592d7f82dbf669bb3c3661624b65",
-          "position": {
-            "x": 456,
-            "y": 472
-          },
-          "size": {
-            "width": 96,
-            "height": 64
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "d33439ae-937a-4f8e-9e91-827cc23fd862",
-            "port": "out"
+            "block": "3b82f6dd-3a4e-4fb4-b049-fcb85ce9fd01",
+            "port": "8bdeea1f-e51b-40e1-92c0-e62ed1c31c18"
           },
           "target": {
-            "block": "2c92fc2a-d148-49c5-9dc5-57bba6fd2979",
-            "port": "21bc142d-a93a-430d-b37a-326435def9f9"
-          }
-        },
-        {
-          "source": {
-            "block": "2c92fc2a-d148-49c5-9dc5-57bba6fd2979",
-            "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
-          },
-          "target": {
-            "block": "78d0fd29-0c20-4b9a-9679-837fb49b7fba",
-            "port": "58d2c88e-2434-438f-986b-0f5b9c3654ca"
-          }
-        },
-        {
-          "source": {
-            "block": "78d0fd29-0c20-4b9a-9679-837fb49b7fba",
-            "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
-          },
-          "target": {
-            "block": "e883b1c1-5819-4920-b042-2f973d612678",
+            "block": "acdfb320-9afb-4f4c-a807-847752b882b0",
             "port": "in"
           }
         },
         {
           "source": {
-            "block": "0391fb9d-3b43-4dbc-ba33-00d02f9fef7e",
-            "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
+            "block": "5f336129-532c-4ef9-b3bb-b07cfcff5cdf",
+            "port": "constant-out"
           },
           "target": {
-            "block": "78d0fd29-0c20-4b9a-9679-837fb49b7fba",
-            "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
+            "block": "3b82f6dd-3a4e-4fb4-b049-fcb85ce9fd01",
+            "port": "4c401134-f6fe-456f-ba20-ce93f63baed8"
+          }
+        },
+        {
+          "source": {
+            "block": "a9aa03bc-ae14-4f3a-b0cd-b9297755b44a",
+            "port": "out"
+          },
+          "target": {
+            "block": "b1895764-92a1-4e9d-80cc-745d5155e6d5",
+            "port": "21bc142d-a93a-430d-b37a-326435def9f9"
+          }
+        },
+        {
+          "source": {
+            "block": "17e37217-8c3a-462a-8bfd-99e641a57c9e",
+            "port": "out"
+          },
+          "target": {
+            "block": "a6fb9ece-ef0d-4b7c-8046-8b2cb346414d",
+            "port": "21bc142d-a93a-430d-b37a-326435def9f9"
+          }
+        },
+        {
+          "source": {
+            "block": "a6fb9ece-ef0d-4b7c-8046-8b2cb346414d",
+            "port": "b58132b2-2e39-4a85-ab5b-63bded91cecc"
+          },
+          "target": {
+            "block": "3b82f6dd-3a4e-4fb4-b049-fcb85ce9fd01",
+            "port": "a165b16f-ba6d-460a-bebd-b8d7b6abba0c"
+          }
+        },
+        {
+          "source": {
+            "block": "b1895764-92a1-4e9d-80cc-745d5155e6d5",
+            "port": "b58132b2-2e39-4a85-ab5b-63bded91cecc"
+          },
+          "target": {
+            "block": "3b82f6dd-3a4e-4fb4-b049-fcb85ce9fd01",
+            "port": "521017de-b157-4356-a9d5-7a502b673a3e"
           }
         }
       ]
     }
   },
   "dependencies": {
-    "febcfed8636b8ee9a98750b96ed9e53a165dd4a8": {
-      "package": {
-        "name": "bit-1",
-        "version": "0.2",
-        "description": "Constant bit 1",
-        "author": "Jesus Arroyo",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2289.79%22%20height=%22185.093%22%20viewBox=%220%200%2084.179064%20173.52585%22%3E%3Cpath%20d=%22M7.702%2032.42L49.972%200l34.207%207.725-27.333%20116.736-26.607-6.01L51.26%2025.273%2020.023%2044.2z%22%20fill=%22green%22%20fill-rule=%22evenodd%22/%3E%3Cpath%20d=%22M46.13%20117.28l21.355%2028.258-17.91%2021.368%206.198%205.513m-14.033-54.45l-12.4%2028.26-28.242%205.512%202.067%208.959%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%222.196%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "3d584b0a-29eb-47af-8c43-c0822282ef05",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 456,
-                "y": 120
-              }
-            },
-            {
-              "id": "61331ec5-2c56-4cdd-b607-e63b1502fa65",
-              "type": "basic.code",
-              "data": {
-                "code": "//-- Constant bit-1\nassign q = 1'b1;\n\n",
-                "params": [],
-                "ports": {
-                  "in": [],
-                  "out": [
-                    {
-                      "name": "q"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 168,
-                "y": 112
-              },
-              "size": {
-                "width": 248,
-                "height": 80
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "61331ec5-2c56-4cdd-b607-e63b1502fa65",
-                "port": "q"
-              },
-              "target": {
-                "block": "3d584b0a-29eb-47af-8c43-c0822282ef05",
-                "port": "in"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "8a23ffd0491010ff595493182b82c722bd6902d7": {
-      "package": {
-        "name": "DFF-verilog",
-        "version": "0.2",
-        "description": "DFF. D Flip-flop. Verilog implementation",
-        "author": "Juan González-Gómez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22216.379%22%20height=%22279.911%22%20viewBox=%220%200%2057.25032%2074.059853%22%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M41.506%2040.152l13.608%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M34.122%2032.088L24.89%2012.475l-6.45%203.724-2.07-3.583L37.276.546l2.07%203.584-6.093%203.517%2012.03%2018.223s5.4-2.025%208.536.74c3.136%202.766%202.52%204.92%202.887%204.772L33.017%2045.02s-2.849-3.695-2.16-6.795c.687-3.1%203.265-6.137%203.265-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-22.665)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
-        "otid": 1594812046378
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "df0c1bb1-f8ef-49f3-b71f-9384c29a9735",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 128,
-                "y": 424
-              }
-            },
-            {
-              "id": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
-              "type": "basic.input",
-              "data": {
-                "name": "d",
-                "clock": false
-              },
-              "position": {
-                "x": 128,
-                "y": 536
-              }
-            },
-            {
-              "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 824,
-                "y": 536
-              }
-            },
-            {
-              "id": "58d2c88e-2434-438f-986b-0f5b9c3654ca",
-              "type": "basic.input",
-              "data": {
-                "name": "load",
-                "clock": false
-              },
-              "position": {
-                "x": 128,
-                "y": 648
-              }
-            },
-            {
-              "id": "be33796a-a109-4ab0-a53b-dd6ec67587cd",
-              "type": "basic.constant",
-              "data": {
-                "name": "",
-                "value": "0",
-                "local": false
-              },
-              "position": {
-                "x": 488,
-                "y": 280
-              }
-            },
-            {
-              "id": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
-              "type": "basic.code",
-              "data": {
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    },
-                    {
-                      "name": "d"
-                    },
-                    {
-                      "name": "load"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "q"
-                    }
-                  ]
-                },
-                "params": [
-                  {
-                    "name": "INI"
-                  }
-                ],
-                "code": "//-- Initial value\nreg qi = INI;\n\nalways @(posedge clk)\nbegin\n \n //-- When load is active\n //-- the input data is captured\n if (load == 1'b1)\n   qi <= d;\n \nend\n\n//-- Connect the register with the\n//-- output\nassign q = qi;\n"
-              },
-              "position": {
-                "x": 320,
-                "y": 400
-              },
-              "size": {
-                "width": 424,
-                "height": 336
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "df0c1bb1-f8ef-49f3-b71f-9384c29a9735",
-                "port": "out"
-              },
-              "target": {
-                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
-                "port": "clk"
-              }
-            },
-            {
-              "source": {
-                "block": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
-                "port": "out"
-              },
-              "target": {
-                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
-                "port": "d"
-              }
-            },
-            {
-              "source": {
-                "block": "58d2c88e-2434-438f-986b-0f5b9c3654ca",
-                "port": "out"
-              },
-              "target": {
-                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
-                "port": "load"
-              }
-            },
-            {
-              "source": {
-                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
-                "port": "q"
-              },
-              "target": {
-                "block": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "be33796a-a109-4ab0-a53b-dd6ec67587cd",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
-                "port": "INI"
-              }
-            }
-          ]
-        }
-      }
-    },
     "5018a67fe520592d7f82dbf669bb3c3661624b65": {
       "package": {
         "name": "Button-tic",
@@ -3008,6 +2817,172 @@
                   "y": 368
                 }
               ]
+            }
+          ]
+        }
+      }
+    },
+    "8a23ffd0491010ff595493182b82c722bd6902d7": {
+      "package": {
+        "name": "DFF-verilog",
+        "version": "0.2",
+        "description": "DFF. D Flip-flop. Verilog implementation",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22216.379%22%20height=%22279.911%22%20viewBox=%220%200%2057.25032%2074.059853%22%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M41.506%2040.152l13.608%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M34.122%2032.088L24.89%2012.475l-6.45%203.724-2.07-3.583L37.276.546l2.07%203.584-6.093%203.517%2012.03%2018.223s5.4-2.025%208.536.74c3.136%202.766%202.52%204.92%202.887%204.772L33.017%2045.02s-2.849-3.695-2.16-6.795c.687-3.1%203.265-6.137%203.265-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-22.665)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
+        "otid": 1594812046378
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "df0c1bb1-f8ef-49f3-b71f-9384c29a9735",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 128,
+                "y": 424
+              }
+            },
+            {
+              "id": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
+              "type": "basic.input",
+              "data": {
+                "name": "d",
+                "clock": false
+              },
+              "position": {
+                "x": 128,
+                "y": 536
+              }
+            },
+            {
+              "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 824,
+                "y": 536
+              }
+            },
+            {
+              "id": "58d2c88e-2434-438f-986b-0f5b9c3654ca",
+              "type": "basic.input",
+              "data": {
+                "name": "load",
+                "clock": false
+              },
+              "position": {
+                "x": 128,
+                "y": 648
+              }
+            },
+            {
+              "id": "be33796a-a109-4ab0-a53b-dd6ec67587cd",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "0",
+                "local": false
+              },
+              "position": {
+                "x": 488,
+                "y": 280
+              }
+            },
+            {
+              "id": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
+              "type": "basic.code",
+              "data": {
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "d"
+                    },
+                    {
+                      "name": "load"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "q"
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "name": "INI"
+                  }
+                ],
+                "code": "//-- Initial value\nreg qi = INI;\n\nalways @(posedge clk)\nbegin\n \n //-- When load is active\n //-- the input data is captured\n if (load == 1'b1)\n   qi <= d;\n \nend\n\n//-- Connect the register with the\n//-- output\nassign q = qi;\n"
+              },
+              "position": {
+                "x": 320,
+                "y": 400
+              },
+              "size": {
+                "width": 424,
+                "height": 336
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "df0c1bb1-f8ef-49f3-b71f-9384c29a9735",
+                "port": "out"
+              },
+              "target": {
+                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
+                "port": "clk"
+              }
+            },
+            {
+              "source": {
+                "block": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
+                "port": "out"
+              },
+              "target": {
+                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
+                "port": "d"
+              }
+            },
+            {
+              "source": {
+                "block": "58d2c88e-2434-438f-986b-0f5b9c3654ca",
+                "port": "out"
+              },
+              "target": {
+                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
+                "port": "load"
+              }
+            },
+            {
+              "source": {
+                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
+                "port": "q"
+              },
+              "target": {
+                "block": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "be33796a-a109-4ab0-a53b-dd6ec67587cd",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "5bffd6ef-bb9d-4d3f-a4f0-f91c6040ddc5",
+                "port": "INI"
+              }
             }
           ]
         }
@@ -8740,6 +8715,177 @@
                 "block": "7bfc506f-7a54-40a1-8d33-e78a5409b972",
                 "port": "in"
               }
+            }
+          ]
+        }
+      }
+    },
+    "634a8264ad6e5fddd31e133eeb433af81e08cca2": {
+      "package": {
+        "name": "RS-FF-reset-verilog",
+        "version": "0.3",
+        "description": "RS-FF-reset. RS Flip-flop with priority reset. Verilog implementation",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20312.54461%20289.77628%22%20id=%22svg30%22%20width=%22312.545%22%20height=%22289.776%22%3E%3Cdefs%20id=%22defs34%22%3E%3Cmarker%20id=%22TriangleOutM%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20id=%22path988%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path870%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cstyle%20id=%22style2%22%3E.st0%7Bdisplay:none%7D.st1%7Bfill:none;stroke:#303030;stroke-width:.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10%7D.st2%7Bfill:#303030%7D%3C/style%3E%3Cg%20id=%22layer1%22%20transform=%22translate(81.543%203.027)%22%3E%3Cpath%20id=%22line17%22%20class=%22st1%22%20fill=%22none%22%20stroke=%22#303030%22%20stroke-width=%226.776%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-miterlimit=%2210%22%20d=%22M184.865%20207.591L41.298%20262.802%22/%3E%3Cpath%20id=%22path21-3%22%20d=%22M185.448%20175.07l.37.154c2.52.831%204.718%202.386%206.634%204.249%202.02%202.322%203.694%204.777%204.423%208.713%201.496%208.074-3.286%2016.05-10.95%2018.997l-1.06.408L41.298%20262.8l-.733.283c-8.003%203.077-17.551.461-21.82-6.975-3.3-5.748-2.736-12.198.418-21.613%203.155-9.414%202.86-21.856-1.644-33.55l.041.003-12.507-32.667c-12.88-33.415-.747-70.376%2027.41-90.31l-1.102-2.749c-3.685-9.583%201.14-20.438%2010.723-24.124%209.583-3.685%2020.439%201.14%2024.124%2010.723l1.654%203.239c34.881-3.556%2068.594%2015.855%2081.318%2049.33l15.24%2038.432c4.795%208.723%2011.831%2015.955%2021.028%2022.248z%22%20fill=%22#fff%22%20stroke=%22#303030%22%20stroke-width=%227%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-miterlimit=%2210%22/%3E%3Cpath%20d=%22M64.268%20268.838l45.015-17.115s7.963%2024.296-14.427%2030.38c-22.39%206.086-30.588-13.265-30.588-13.265z%22%20id=%22path826%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%227%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3Cg%20id=%22layer3%22%20transform=%22translate(78.072%20-.17)%22%3E%3Crect%20id=%22rect845%22%20width=%22135.189%22%20height=%22135.189%22%20x=%2295.783%22%20y=%223.671%22%20ry=%2219.847%22%20fill=%22#55acee%22%20stroke=%22#303030%22%20stroke-width=%227%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-miterlimit=%2210%22/%3E%3C/g%3E%3Cg%20id=%22layer4%22%20transform=%22translate(78.072%20-.17)%22%3E%3Cellipse%20id=%22path1211%22%20cx=%22-39.888%22%20cy=%22250.466%22%20rx=%2235.684%22%20ry=%2237.984%22%20fill=%22#fff6d5%22%20stroke=%22#000%22%20stroke-width=%225%22%20stroke-linecap=%22round%22/%3E%3Cpath%20class=%22st2%22%20d=%22M172.724%2052.533V27.647h-9.888L144.047%2037.7l2.308%208.9%2014.833-8.076h.33v74.824H172.724V52.533z%22%20id=%22path7%22%20fill=%22#303030%22%20stroke-width=%2214.425%22/%3E%3Cpath%20d=%22M-38.915%20277.098v-39.72%22%20id=%22path841%22%20fill=%22#00f%22%20stroke=%22#00f%22%20stroke-width=%225%22%20marker-end=%22url(#TriangleOutM)%22/%3E%3C/g%3E%3C/svg%3E",
+        "otid": 1621864223514
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "625762cf-338a-4945-bbeb-23db52514091",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 520,
+                "y": -24
+              }
+            },
+            {
+              "id": "8bdeea1f-e51b-40e1-92c0-e62ed1c31c18",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 1128,
+                "y": 96
+              }
+            },
+            {
+              "id": "521017de-b157-4356-a9d5-7a502b673a3e",
+              "type": "basic.input",
+              "data": {
+                "name": "set",
+                "clock": false
+              },
+              "position": {
+                "x": 512,
+                "y": 96
+              }
+            },
+            {
+              "id": "a165b16f-ba6d-460a-bebd-b8d7b6abba0c",
+              "type": "basic.input",
+              "data": {
+                "name": "reset",
+                "clock": false
+              },
+              "position": {
+                "x": 512,
+                "y": 216
+              }
+            },
+            {
+              "id": "4c401134-f6fe-456f-ba20-ce93f63baed8",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "0",
+                "local": false
+              },
+              "position": {
+                "x": 832,
+                "y": -168
+              }
+            },
+            {
+              "id": "922688bd-73a9-4a77-8d2f-635a886096fc",
+              "type": "basic.code",
+              "data": {
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "set"
+                    },
+                    {
+                      "name": "reset"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "q"
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "name": "INI"
+                  }
+                ],
+                "code": "//-- Initial value\nreg qi = INI;\n\nalways @(posedge clk)\nbegin\n\n  //-- Priority on reset\n  //-- It is first checked\n  if (reset == 1'b1) \n    qi <= 1'b0;\n    \n  //-- Second: check set\n  else if (set == 1'b1)\n    qi <= 1'b1;\n    \n  //-- In any other case the FF\n  //-- remains in its current \n  //-- state (no change)\nend\n\n//-- Connect the register with the\n//-- output\nassign q = qi;\n"
+              },
+              "position": {
+                "x": 688,
+                "y": -56
+              },
+              "size": {
+                "width": 376,
+                "height": 368
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "922688bd-73a9-4a77-8d2f-635a886096fc",
+                "port": "q"
+              },
+              "target": {
+                "block": "8bdeea1f-e51b-40e1-92c0-e62ed1c31c18",
+                "port": "in"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "521017de-b157-4356-a9d5-7a502b673a3e",
+                "port": "out"
+              },
+              "target": {
+                "block": "922688bd-73a9-4a77-8d2f-635a886096fc",
+                "port": "set"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "a165b16f-ba6d-460a-bebd-b8d7b6abba0c",
+                "port": "out"
+              },
+              "target": {
+                "block": "922688bd-73a9-4a77-8d2f-635a886096fc",
+                "port": "reset"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "625762cf-338a-4945-bbeb-23db52514091",
+                "port": "out"
+              },
+              "target": {
+                "block": "922688bd-73a9-4a77-8d2f-635a886096fc",
+                "port": "clk"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "4c401134-f6fe-456f-ba20-ce93f63baed8",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "922688bd-73a9-4a77-8d2f-635a886096fc",
+                "port": "INI"
+              },
+              "vertices": []
             }
           ]
         }
