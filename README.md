@@ -176,6 +176,8 @@ For installing and using this colection in Icestudio follow these steps:
 * **11-RS-FF-reset-priority-test**
   * **Alhambra-II**
     * 11-RS-FF-reset-priority-Manual-testing
+  * **Nandlang-go-board**
+    * 11-RS-FF-reset-priority-Manual-testing
   * **ULX3S-12F**
     * 11-RS-FF-reset-priority-Manual-testing
   * **iCEBreaker**
